@@ -1,0 +1,38 @@
+[
+    {
+        "universite": "ecole normale supérieure de bouzaréah",
+        "specialite": "Langue anglaise",
+        "postes": 4,
+        "departement": "Département de la langue anglaise"
+    },
+    {
+        "universite": "ecole normale supérieure de bouzaréah",
+        "specialite": "Informatique",
+        "postes": 4,
+        "departement": "Ecole Normale Supérieure de Bouzaréah"
+    },
+    {
+        "universite": "ecole normale supérieure de bouzaréah",
+        "specialite": "Géographie et aménagement du territoire",
+        "postes": 1,
+        "departement": "Département d'histoire et géographie"
+    },
+    {
+        "universite": "ecole normale supérieure de bouzaréah",
+        "specialite": "Langue française",
+        "postes": 1,
+        "departement": "Département de la langue française"
+    },
+    {
+        "universite": "ecole normale supérieure de bouzaréah",
+        "specialite": "Activité physique et sportive éducative",
+        "postes": 1,
+        "departement": "Département d'éducation physique et sportive"
+    },
+    {
+        "universite": "ecole normale supérieure de bouzaréah",
+        "specialite": "Sciences sociales - philosophie",
+        "postes": 1,
+        "departement": "Département de philosophie"
+    }
+]
