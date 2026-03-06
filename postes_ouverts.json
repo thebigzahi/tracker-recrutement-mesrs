@@ -1,146 +1,149 @@
-[
-    {
-        "universite": "université de naama",
-        "specialite": "Génie des procédés",
-        "postes": 1,
-        "departement": "Département de génie mécanique"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Génie electrique",
-        "postes": 2,
-        "departement": "Département de génie Electrique"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Télécommunications",
-        "postes": 1,
-        "departement": "Institut de  Technologie"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Génie mécanique",
-        "postes": 1,
-        "departement": "Département de génie mécanique"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Génie civil",
-        "postes": 1,
-        "departement": "Département de génie civil et travaux publics"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Sciences biologiques",
-        "postes": 2,
-        "departement": "Département de biologie"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Sciences alimentaires",
-        "postes": 1,
-        "departement": "Département de biologie"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Informatique",
-        "postes": 3,
-        "departement": "Département Informatique"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Mathématiques",
-        "postes": 2,
-        "departement": "Département Informatique"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Droit",
-        "postes": 2,
-        "departement": "Département D'enseignement commun en Droit"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Études linguistiques",
-        "postes": 1,
-        "departement": "Département Langue et de littérature arabe"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Langue anglaise",
-        "postes": 2,
-        "departement": "Département Langue Anglaise"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Sciences économiques",
-        "postes": 2,
-        "departement": "Département des sciences économiques"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Sciences de gestion",
-        "postes": 1,
-        "departement": "Département des sciences de gestion"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Sciences financières et comptabilité",
-        "postes": 2,
-        "departement": "Département des sciences économiques"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Sciences humaines - archéologie",
-        "postes": 2,
-        "departement": "Institut des sciences humaines et sociales"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Sciences sociales - sociologie",
-        "postes": 1,
-        "departement": "Département d’enseignement commun en sciences humaines et sociales"
-    },
-    {
-        "universite": "université de naama",
-        "specialite": "Sciences islamiques – charia",
-        "postes": 2,
-        "departement": "Département d’enseignement commun en sciences humaines et sociales"
-    },
-    {
-        "universite": "ecole normale supérieure de bouzaréah",
-        "specialite": "Langue anglaise",
-        "postes": 4,
-        "departement": "Département de la langue anglaise"
-    },
-    {
-        "universite": "ecole normale supérieure de bouzaréah",
-        "specialite": "Informatique",
-        "postes": 4,
-        "departement": "Ecole Normale Supérieure de Bouzaréah"
-    },
-    {
-        "universite": "ecole normale supérieure de bouzaréah",
-        "specialite": "Géographie et aménagement du territoire",
-        "postes": 1,
-        "departement": "Département d'histoire et géographie"
-    },
-    {
-        "universite": "ecole normale supérieure de bouzaréah",
-        "specialite": "Langue française",
-        "postes": 1,
-        "departement": "Département de la langue française"
-    },
-    {
-        "universite": "ecole normale supérieure de bouzaréah",
-        "specialite": "Activité physique et sportive éducative",
-        "postes": 1,
-        "departement": "Département d'éducation physique et sportive"
-    },
-    {
-        "universite": "ecole normale supérieure de bouzaréah",
-        "specialite": "Sciences sociales - philosophie",
-        "postes": 1,
-        "departement": "Département de philosophie"
-    }
-]
+{
+    "mise_a_jour": "06/03/2026 à 14:39",
+    "postes": [
+        {
+            "universite": "université de naama",
+            "specialite": "Génie des procédés",
+            "postes": 1,
+            "departement": "Département de génie mécanique"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Génie electrique",
+            "postes": 2,
+            "departement": "Département de génie Electrique"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Télécommunications",
+            "postes": 1,
+            "departement": "Institut de  Technologie"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Génie mécanique",
+            "postes": 1,
+            "departement": "Département de génie mécanique"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Génie civil",
+            "postes": 1,
+            "departement": "Département de génie civil et travaux publics"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Sciences biologiques",
+            "postes": 2,
+            "departement": "Département de biologie"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Sciences alimentaires",
+            "postes": 1,
+            "departement": "Département de biologie"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Informatique",
+            "postes": 3,
+            "departement": "Département Informatique"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Mathématiques",
+            "postes": 2,
+            "departement": "Département Informatique"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Droit",
+            "postes": 2,
+            "departement": "Département D'enseignement commun en Droit"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Études linguistiques",
+            "postes": 1,
+            "departement": "Département Langue et de littérature arabe"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Langue anglaise",
+            "postes": 2,
+            "departement": "Département Langue Anglaise"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Sciences économiques",
+            "postes": 2,
+            "departement": "Département des sciences économiques"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Sciences de gestion",
+            "postes": 1,
+            "departement": "Département des sciences de gestion"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 2,
+            "departement": "Département des sciences économiques"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Sciences humaines - archéologie",
+            "postes": 2,
+            "departement": "Institut des sciences humaines et sociales"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Sciences sociales - sociologie",
+            "postes": 1,
+            "departement": "Département d’enseignement commun en sciences humaines et sociales"
+        },
+        {
+            "universite": "université de naama",
+            "specialite": "Sciences islamiques – charia",
+            "postes": 2,
+            "departement": "Département d’enseignement commun en sciences humaines et sociales"
+        },
+        {
+            "universite": "ecole normale supérieure de bouzaréah",
+            "specialite": "Langue anglaise",
+            "postes": 4,
+            "departement": "Département de la langue anglaise"
+        },
+        {
+            "universite": "ecole normale supérieure de bouzaréah",
+            "specialite": "Informatique",
+            "postes": 4,
+            "departement": "Ecole Normale Supérieure de Bouzaréah"
+        },
+        {
+            "universite": "ecole normale supérieure de bouzaréah",
+            "specialite": "Géographie et aménagement du territoire",
+            "postes": 1,
+            "departement": "Département d'histoire et géographie"
+        },
+        {
+            "universite": "ecole normale supérieure de bouzaréah",
+            "specialite": "Langue française",
+            "postes": 1,
+            "departement": "Département de la langue française"
+        },
+        {
+            "universite": "ecole normale supérieure de bouzaréah",
+            "specialite": "Activité physique et sportive éducative",
+            "postes": 1,
+            "departement": "Département d'éducation physique et sportive"
+        },
+        {
+            "universite": "ecole normale supérieure de bouzaréah",
+            "specialite": "Sciences sociales - philosophie",
+            "postes": 1,
+            "departement": "Département de philosophie"
+        }
+    ]
+}
