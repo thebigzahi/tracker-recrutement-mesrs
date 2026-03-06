@@ -80,15 +80,17 @@
     // Fonction pour charger le JSON
     async function loadData() {
         try {
-            // On ajoute un timestamp à l'URL pour éviter que le navigateur garde l'ancien fichier en cache
             const response = await fetch('postes_ouverts.json?' + new Date().getTime());
-            
             if (!response.ok) throw new Error("Fichier introuvable");
             
-            allData = await response.json();
+            const jsonResponse = await response.json();
             
-            // Date de mise à jour (approximation avec la date de récupération locale pour le JS)
-            document.getElementById('last-update').innerHTML = `🔄 <strong>Données synchronisées.</strong>`;
+            // 1. On affiche la vraie date écrite par le script Python
+            const dateMaj = jsonResponse.mise_a_jour || "Inconnue";
+            document.getElementById('last-update').innerHTML = `🔄 <strong>Dernière mise à jour des données :</strong> ${dateMaj}`;
+            
+            // 2. On récupère la liste des postes
+            allData = jsonResponse.postes;
             
             calculateMetrics(allData);
             populateFilters(allData);
