@@ -1,0 +1,42 @@
+name: Scraper MESRS Automatique
+
+# Quand est-ce que le robot s'active ?
+on:
+  schedule:
+    # Tous les jours à 08h00 et 20h00 (Heure UTC)
+    - cron: '0 8,20 * * *'
+  workflow_dispatch: # Permet de lancer le script manuellement via un bouton
+
+# Ce que le robot a le droit de faire
+permissions:
+  contents: write
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 📦 Installer les dépendances
+        run: pip install requests
+
+      - name: 🚀 Lancer le scan MESRS
+        env:
+          MESRS_USERNAME: ${{ secrets.MESRS_USERNAME }}
+          MESRS_PASSWORD: ${{ secrets.MESRS_PASSWORD }}
+        run: python tracker.py
+
+      - name: 💾 Sauvegarder et mettre en ligne le JSON
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add postes_ouverts.json
+          git commit -m "🔄 Mise à jour auto des postes ouverts" || echo "Rien à mettre à jour"
+          git push
