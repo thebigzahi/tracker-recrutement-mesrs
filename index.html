@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker Recrutement MESRS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; padding-top: 20px; }
+        .metric-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+        .metric-value { font-size: 2rem; font-weight: bold; color: #0d6efd; }
+        .metric-label { color: #6c757d; font-size: 0.9rem; text-transform: uppercase; }
+        .table-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="mb-2">🎓 Tracker des Postes de Maître Assistant (MESRS)</h1>
+    <p class="text-muted">Cette plateforme recense les annonces d'ouvertures de postes actuellement disponibles sur la plateforme officielle du ministère.</p>
+    
+    <p id="last-update" class="text-secondary small">🔄 <strong>Dernière mise à jour :</strong> Chargement...</p>
+
+    <div class="row mb-4 mt-4">
+        <div class="col-md-4">
+            <div class="metric-card">
+                <div class="metric-label">🏫 Universités qui recrutent</div>
+                <div class="metric-value" id="count-univ">0</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="metric-card">
+                <div class="metric-label">💼 Total des postes ouverts</div>
+                <div class="metric-value" id="count-postes">0</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="metric-card">
+                <div class="metric-label">🎯 Spécialités différentes</div>
+                <div class="metric-value" id="count-spec">0</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label for="filter-univ" class="form-label"><strong>Filtrer par Établissement</strong></label>
+            <select id="filter-univ" class="form-select">
+                <option value="Toutes">Toutes</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="filter-spec" class="form-label"><strong>Rechercher une spécialité</strong></label>
+            <input type="text" id="filter-spec" class="form-control" placeholder="ex: Finance, Informatique...">
+        </div>
+    </div>
+
+    <div class="table-container">
+        <h4 id="result-count" class="mb-3">📋 Résultats : 0 Poste(s) correspondant(s)</h4>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Établissement</th>
+                        <th>Spécialité</th>
+                        <th>Nombre de postes</th>
+                        <th>Département / Faculté</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    let allData = [];
+
+    // Fonction pour charger le JSON
+    async function loadData() {
+        try {
+            // On ajoute un timestamp à l'URL pour éviter que le navigateur garde l'ancien fichier en cache
+            const response = await fetch('postes_ouverts.json?' + new Date().getTime());
+            
+            if (!response.ok) throw new Error("Fichier introuvable");
+            
+            allData = await response.json();
+            
+            // Date de mise à jour (approximation avec la date de récupération locale pour le JS)
+            document.getElementById('last-update').innerHTML = `🔄 <strong>Données synchronisées.</strong>`;
+            
+            calculateMetrics(allData);
+            populateFilters(allData);
+            renderTable(allData);
+            
+        } catch (error) {
+            document.getElementById('table-body').innerHTML = `<tr><td colspan="4" class="text-center text-danger">Aucun poste ouvert pour le moment ou fichier de données non trouvé.</td></tr>`;
+            document.getElementById('last-update').innerHTML = `❌ Erreur de chargement.`;
+        }
+    }
+
+    // Calculer les gros compteurs
+    function calculateMetrics(data) {
+        const univs = new Set(data.map(item => item.universite));
+        const specs = new Set(data.map(item => item.specialite));
+        
+        let totalPostes = 0;
+        data.forEach(item => {
+            let num = parseInt(item.postes);
+            if (!isNaN(num)) totalPostes += num;
+        });
+
+        document.getElementById('count-univ').innerText = univs.size;
+        document.getElementById('count-postes').innerText = totalPostes;
+        document.getElementById('count-spec').innerText = specs.size;
+    }
+
+    // Remplir le menu déroulant des universités
+    function populateFilters(data) {
+        const univs = [...new Set(data.map(item => item.universite))].sort();
+        const select = document.getElementById('filter-univ');
+        univs.forEach(univ => {
+            let option = document.createElement('option');
+            option.value = univ;
+            option.innerText = univ;
+            select.appendChild(option);
+        });
+    }
+
+    // Afficher le tableau
+    function renderTable(data) {
+        const tbody = document.getElementById('table-body');
+        tbody.innerHTML = '';
+        
+        document.getElementById('result-count').innerText = `📋 Résultats : ${data.length} Poste(s) correspondant(s)`;
+
+        data.forEach(row => {
+            let tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>${row.universite}</td>
+                <td>${row.specialite}</td>
+                <td><span class="badge bg-primary">${row.postes}</span></td>
+                <td>${row.departement}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
+
+    // Gérer les filtres
+    function filterData() {
+        const selectedUniv = document.getElementById('filter-univ').value;
+        const searchText = document.getElementById('filter-spec').value.toLowerCase();
+
+        const filtered = allData.filter(item => {
+            const matchUniv = (selectedUniv === "Toutes" || item.universite === selectedUniv);
+            const matchSpec = item.specialite.toLowerCase().includes(searchText);
+            return matchUniv && matchSpec;
+        });
+
+        renderTable(filtered);
+    }
+
+    // Écouteurs d'événements pour les filtres
+    document.getElementById('filter-univ').addEventListener('change', filterData);
+    document.getElementById('filter-spec').addEventListener('keyup', filterData);
+
+    // Lancer au démarrage
+    loadData();
+</script>
+
+</body>
+</html>
