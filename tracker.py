@@ -4,6 +4,7 @@ import time
 import html
 import json
 from datetime import datetime
+import os
 
 # ==========================================
 # ⚙️ CONFIGURATION DES IDENTIFIANTS
@@ -362,4 +363,5 @@ def login_et_scanner():
         print(f"\n❌ Erreur technique inattendue : {e}")
 
 if __name__ == "__main__":
+
     login_et_scanner()
