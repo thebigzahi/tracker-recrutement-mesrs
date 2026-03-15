@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "15/03/2026 à 08:29",
+    "mise_a_jour": "15/03/2026 à 20:21",
     "postes": [
         {
             "universite": "université de naama",
@@ -84,12 +84,6 @@
             "specialite": "Sciences de gestion",
             "postes": 1,
             "departement": "Département des sciences de gestion"
-        },
-        {
-            "universite": "université de naama",
-            "specialite": "Sciences financières et comptabilité",
-            "postes": 2,
-            "departement": "Département des sciences économiques"
         },
         {
             "universite": "université de naama",
