@@ -12,7 +12,10 @@
         .metric-label { color: #6c757d; font-size: 0.8rem; text-transform: uppercase; font-weight: 600; }
         .table-container { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 15px; }
         
-        h1 { font-size: 1.5rem; font-weight: bold; color: #333; }
+        /* Titre dynamique : grand sur PC, plus petit sur mobile automatiquement */
+        h1 { font-size: clamp(1.4rem, 4vw, 2rem); font-weight: bold; color: #333; }
+        .site-description { font-size: 0.95rem; line-height: 1.4; margin-bottom: 0.5rem; }
+        
         .form-label { font-size: 0.9rem; margin-bottom: 0.2rem; }
         
         /* OPTIMISATION MOBILE : Transformation du tableau en cartes */
@@ -21,7 +24,7 @@
                 display: block;
             }
             .table-responsive thead tr {
-                display: none; /* Cache l'en-tête du tableau sur mobile */
+                display: none;
             }
             .table-responsive tr {
                 margin-bottom: 15px;
@@ -34,7 +37,7 @@
                 border: none;
                 border-bottom: 1px solid #f0f0f0;
                 position: relative;
-                padding: 10px 10px 10px 45%; /* Laisse de la place pour le label */
+                padding: 10px 10px 10px 45%; 
                 text-align: right;
                 min-height: 40px;
                 font-size: 0.9rem;
@@ -42,7 +45,6 @@
             .table-responsive td:last-child {
                 border-bottom: 0;
             }
-            /* Insère les étiquettes (Établissement, Spécialité...) à gauche */
             .table-responsive td::before {
                 content: attr(data-label);
                 position: absolute;
@@ -53,16 +55,14 @@
                 color: #6c757d;
                 font-size: 0.85rem;
             }
-            /* Ajustements d'espacement pour mobile */
-            .mobile-g-2 { gap: 10px; }
         }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1 class="mb-2">🎓 Tracker Postes MESRS</h1>
-    <p class="text-muted small mb-1">Annonces d'ouvertures de postes (Maître Assistant).</p>
+    <h1 class="mb-2">🎓 Tracker des Postes de Maître Assistant (MESRS)</h1>
+    <p class="text-muted site-description">Cette plateforme automatise la recherche et recense en temps réel toutes les ouvertures de postes (Maître Assistant) actuellement disponibles sur la plateforme officielle du ministère (PROGRES).</p>
     
     <p id="last-update" class="text-secondary small mb-3">🔄 <strong>Dernière mise à jour :</strong> Chargement...</p>
 
@@ -173,7 +173,7 @@
         });
     }
 
-    // Afficher le tableau (avec data-label pour mobile)
+    // Afficher le tableau
     function renderTable(data) {
         const tbody = document.getElementById('table-body');
         tbody.innerHTML = '';
