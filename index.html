@@ -2,68 +2,113 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Tracker Recrutement MESRS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #f8f9fa; padding-top: 20px; }
-        .metric-card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
-        .metric-value { font-size: 2rem; font-weight: bold; color: #0d6efd; }
-        .metric-label { color: #6c757d; font-size: 0.9rem; text-transform: uppercase; }
-        .table-container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-top: 20px; }
+        body { background-color: #f8f9fa; padding-top: 15px; padding-bottom: 30px; }
+        .metric-card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; height: 100%; display: flex; flex-direction: column; justify-content: center;}
+        .metric-value { font-size: 1.8rem; font-weight: bold; color: #0d6efd; line-height: 1; margin-top: 5px; }
+        .metric-label { color: #6c757d; font-size: 0.8rem; text-transform: uppercase; font-weight: 600; }
+        .table-container { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-top: 15px; }
+        
+        h1 { font-size: 1.5rem; font-weight: bold; color: #333; }
+        .form-label { font-size: 0.9rem; margin-bottom: 0.2rem; }
+        
+        /* OPTIMISATION MOBILE : Transformation du tableau en cartes */
+        @media (max-width: 767px) {
+            .table-responsive table, .table-responsive thead, .table-responsive tbody, .table-responsive th, .table-responsive td, .table-responsive tr {
+                display: block;
+            }
+            .table-responsive thead tr {
+                display: none; /* Cache l'en-tête du tableau sur mobile */
+            }
+            .table-responsive tr {
+                margin-bottom: 15px;
+                border: 1px solid #e0e0e0;
+                border-radius: 8px;
+                background: #fff;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            }
+            .table-responsive td {
+                border: none;
+                border-bottom: 1px solid #f0f0f0;
+                position: relative;
+                padding: 10px 10px 10px 45%; /* Laisse de la place pour le label */
+                text-align: right;
+                min-height: 40px;
+                font-size: 0.9rem;
+            }
+            .table-responsive td:last-child {
+                border-bottom: 0;
+            }
+            /* Insère les étiquettes (Établissement, Spécialité...) à gauche */
+            .table-responsive td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: 40%;
+                text-align: left;
+                font-weight: 600;
+                color: #6c757d;
+                font-size: 0.85rem;
+            }
+            /* Ajustements d'espacement pour mobile */
+            .mobile-g-2 { gap: 10px; }
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1 class="mb-2">🎓 Tracker des Postes de Maître Assistant (MESRS)</h1>
-    <p class="text-muted">Cette plateforme recense les annonces d'ouvertures de postes actuellement disponibles sur la plateforme officielle du ministère.</p>
+    <h1 class="mb-2">🎓 Tracker Postes MESRS</h1>
+    <p class="text-muted small mb-1">Annonces d'ouvertures de postes (Maître Assistant).</p>
     
-    <p id="last-update" class="text-secondary small">🔄 <strong>Dernière mise à jour :</strong> Chargement...</p>
+    <p id="last-update" class="text-secondary small mb-3">🔄 <strong>Dernière mise à jour :</strong> Chargement...</p>
 
-    <div class="row mb-4 mt-4">
-        <div class="col-md-4">
+    <div class="row g-2 mb-3">
+        <div class="col-12 col-md-4">
             <div class="metric-card">
                 <div class="metric-label">🏫 Universités qui recrutent</div>
                 <div class="metric-value" id="count-univ">0</div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-6 col-md-4">
             <div class="metric-card">
-                <div class="metric-label">💼 Total des postes ouverts</div>
+                <div class="metric-label">💼 Postes ouverts</div>
                 <div class="metric-value" id="count-postes">0</div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-6 col-md-4">
             <div class="metric-card">
-                <div class="metric-label">🎯 Spécialités différentes</div>
+                <div class="metric-label">🎯 Spécialités</div>
                 <div class="metric-value" id="count-spec">0</div>
             </div>
         </div>
     </div>
 
-    <div class="row mb-3">
-        <div class="col-md-6">
-            <label for="filter-univ" class="form-label"><strong>Filtrer par Établissement</strong></label>
-            <select id="filter-univ" class="form-select">
-                <option value="Toutes">Toutes</option>
+    <div class="row g-2 mb-2">
+        <div class="col-12 col-md-6">
+            <label for="filter-univ" class="form-label"><strong>Établissement</strong></label>
+            <select id="filter-univ" class="form-select form-select-sm">
+                <option value="Toutes">Toutes les universités</option>
             </select>
         </div>
-        <div class="col-md-6">
-            <label for="filter-spec" class="form-label"><strong>Rechercher une spécialité</strong></label>
-            <input type="text" id="filter-spec" class="form-control" placeholder="ex: Finance, Informatique...">
+        <div class="col-12 col-md-6">
+            <label for="filter-spec" class="form-label"><strong>Spécialité</strong></label>
+            <input type="text" id="filter-spec" class="form-control form-select-sm" placeholder="ex: Finance, Informatique...">
         </div>
     </div>
 
     <div class="table-container">
-        <h4 id="result-count" class="mb-3">📋 Résultats : 0 Poste(s) correspondant(s)</h4>
+        <h5 id="result-count" class="mb-3" style="font-size: 1.1rem; color: #333;">📋 Résultats : 0 Poste(s)</h5>
         <div class="table-responsive">
-            <table class="table table-hover table-striped">
+            <table class="table table-hover align-middle">
                 <thead class="table-dark">
                     <tr>
                         <th>Établissement</th>
                         <th>Spécialité</th>
-                        <th>Nombre de postes</th>
+                        <th>Postes</th>
                         <th>Département / Faculté</th>
                     </tr>
                 </thead>
@@ -85,11 +130,9 @@
             
             const jsonResponse = await response.json();
             
-            // 1. On affiche la vraie date écrite par le script Python
             const dateMaj = jsonResponse.mise_a_jour || "Inconnue";
-            document.getElementById('last-update').innerHTML = `🔄 <strong>Dernière mise à jour des données :</strong> ${dateMaj}`;
+            document.getElementById('last-update').innerHTML = `🔄 <strong>Mis à jour le :</strong> ${dateMaj}`;
             
-            // 2. On récupère la liste des postes
             allData = jsonResponse.postes;
             
             calculateMetrics(allData);
@@ -97,7 +140,7 @@
             renderTable(allData);
             
         } catch (error) {
-            document.getElementById('table-body').innerHTML = `<tr><td colspan="4" class="text-center text-danger">Aucun poste ouvert pour le moment ou fichier de données non trouvé.</td></tr>`;
+            document.getElementById('table-body').innerHTML = `<tr><td colspan="4" class="text-center text-danger py-4">Aucun poste ouvert pour le moment ou mise à jour en cours.</td></tr>`;
             document.getElementById('last-update').innerHTML = `❌ Erreur de chargement.`;
         }
     }
@@ -118,7 +161,7 @@
         document.getElementById('count-spec').innerText = specs.size;
     }
 
-    // Remplir le menu déroulant des universités
+    // Remplir le menu déroulant
     function populateFilters(data) {
         const univs = [...new Set(data.map(item => item.universite))].sort();
         const select = document.getElementById('filter-univ');
@@ -130,20 +173,20 @@
         });
     }
 
-    // Afficher le tableau
+    // Afficher le tableau (avec data-label pour mobile)
     function renderTable(data) {
         const tbody = document.getElementById('table-body');
         tbody.innerHTML = '';
         
-        document.getElementById('result-count').innerText = `📋 Résultats : ${data.length} Poste(s) correspondant(s)`;
+        document.getElementById('result-count').innerText = `📋 Résultats : ${data.length} Poste(s)`;
 
         data.forEach(row => {
             let tr = document.createElement('tr');
             tr.innerHTML = `
-                <td>${row.universite}</td>
-                <td>${row.specialite}</td>
-                <td><span class="badge bg-primary">${row.postes}</span></td>
-                <td>${row.departement}</td>
+                <td data-label="Établissement"><strong>${row.universite}</strong></td>
+                <td data-label="Spécialité">${row.specialite}</td>
+                <td data-label="Postes"><span class="badge bg-primary rounded-pill px-3 py-2">${row.postes}</span></td>
+                <td data-label="Département" class="text-muted">${row.departement}</td>
             `;
             tbody.appendChild(tr);
         });
@@ -163,11 +206,11 @@
         renderTable(filtered);
     }
 
-    // Écouteurs d'événements pour les filtres
+    // Écouteurs d'événements
     document.getElementById('filter-univ').addEventListener('change', filterData);
     document.getElementById('filter-spec').addEventListener('keyup', filterData);
 
-    // Lancer au démarrage
+    // Démarrage
     loadData();
 </script>
 
