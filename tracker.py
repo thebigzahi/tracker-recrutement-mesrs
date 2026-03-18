@@ -3,13 +3,12 @@ import re
 import time
 import html
 import json
-from datetime import datetime
 import os
+from datetime import datetime
 
 # ==========================================
 # ⚙️ CONFIGURATION DES IDENTIFIANTS
 # ==========================================
-# Le script va chercher les variables cachées sur GitHub
 USERNAME = os.environ.get("MESRS_USERNAME")
 PASSWORD = os.environ.get("MESRS_PASSWORD")
 
@@ -210,16 +209,118 @@ ETABLISSEMENTS = {
     "5186231": "académie militaire de cherchell"
 }
 
+def recuperer_date_limite(session, view_state, etab_id, filiere_id):
+    """
+    Fonction Magique: Effectue la danse pour extraire la date (Trouver Spécialité -> Ajouter -> Lire -> Supprimer)
+    """
+    headers_ajax = HEADERS.copy()
+    headers_ajax["Content-Type"] = "application/x-www-form-urlencoded; charset=UTF-8"
+    headers_ajax["Faces-Request"] = "partial/ajax"
+    date_limite = "Inconnue"
+
+    try:
+        # --- 1. SÉLECTIONNER LA FILIÈRE POUR AVOIR L'ID DE LA SPÉCIALITÉ ---
+        payload_spec = {
+            "javax.faces.partial.ajax": "true",
+            "javax.faces.source": "editVoeuxCandidatForm:master1",
+            "javax.faces.partial.execute": "editVoeuxCandidatForm:master1",
+            "javax.faces.partial.render": "editVoeuxCandidatForm:specialite",
+            "javax.faces.behavior.event": "change",
+            "javax.faces.partial.event": "change",
+            "editVoeuxCandidatForm": "editVoeuxCandidatForm",
+            "editVoeuxCandidatForm:etab1_input": etab_id,
+            "editVoeuxCandidatForm:master1_input": filiere_id,
+            "editVoeuxCandidatForm:specialite_input": "0",
+            "javax.faces.ViewState": view_state
+        }
+        r_spec = session.post(URL_VOEUX, headers=headers_ajax, data=payload_spec)
+        match_vs = re.search(r'update id="j_id1:javax\.faces\.ViewState:0"><!\[CDATA\[(.*?)\]\]></update>', r_spec.text)
+        if match_vs: view_state = match_vs.group(1)
+        
+        # Trouver la première spécialité valide
+        specs = re.findall(r'<option value="([^"]+)".*?</option>', r_spec.text)
+        spec_id = "0"
+        for s in specs:
+            if s != "0":
+                spec_id = s
+                break
+                
+        if spec_id == "0": return date_limite, view_state
+
+        # --- 2. AJOUTER AU PANIER ---
+        payload_add = {
+            "javax.faces.partial.ajax": "true",
+            "javax.faces.source": "editVoeuxCandidatForm:j_idt114",
+            "javax.faces.partial.execute": "@all",
+            "javax.faces.partial.render": "editVoeuxCandidatForm",
+            "editVoeuxCandidatForm:j_idt114": "editVoeuxCandidatForm:j_idt114",
+            "editVoeuxCandidatForm": "editVoeuxCandidatForm",
+            "editVoeuxCandidatForm:etab1_input": etab_id,
+            "editVoeuxCandidatForm:master1_input": filiere_id,
+            "editVoeuxCandidatForm:specialite_input": spec_id,
+            "javax.faces.ViewState": view_state
+        }
+        r_add = session.post(URL_VOEUX, headers=headers_ajax, data=payload_add)
+        match_vs = re.search(r'update id="j_id1:javax\.faces\.ViewState:0"><!\[CDATA\[(.*?)\]\]></update>', r_add.text)
+        if match_vs: view_state = match_vs.group(1)
+
+        # --- 3. LIRE LA DATE (L'œil) ---
+        payload_read = {
+            "javax.faces.partial.ajax": "true",
+            "javax.faces.source": "editVoeuxCandidatForm:voeuxTable:0:detail",
+            "javax.faces.partial.execute": "editVoeuxCandidatForm:voeuxTable:0:detail",
+            "javax.faces.partial.render": "editVoeuxCandidatForm:detailDialog",
+            "editVoeuxCandidatForm:voeuxTable:0:detail": "editVoeuxCandidatForm:voeuxTable:0:detail",
+            "editVoeuxCandidatForm": "editVoeuxCandidatForm",
+            "javax.faces.ViewState": view_state
+        }
+        r_read = session.post(URL_VOEUX, headers=headers_ajax, data=payload_read)
+        match_date = re.search(r'<label id="editVoeuxCandidatForm:j_idt143" class="ui-outputlabel ui-widget value">(.*?)</label>', r_read.text)
+        if match_date:
+            date_limite = match_date.group(1).strip()
+            
+        match_vs = re.search(r'update id="j_id1:javax\.faces\.ViewState:0"><!\[CDATA\[(.*?)\]\]></update>', r_read.text)
+        if match_vs: view_state = match_vs.group(1)
+
+        # --- 4. SUPPRIMER DU PANIER (La poubelle) ---
+        payload_delete = {
+            "javax.faces.partial.ajax": "true",
+            "javax.faces.source": "editVoeuxCandidatForm:voeuxTable:0:delete",
+            "javax.faces.partial.execute": "editVoeuxCandidatForm:voeuxTable:0:delete",
+            "javax.faces.partial.render": "editVoeuxCandidatForm",
+            "editVoeuxCandidatForm:voeuxTable:0:delete": "editVoeuxCandidatForm:voeuxTable:0:delete",
+            "editVoeuxCandidatForm": "editVoeuxCandidatForm",
+            "javax.faces.ViewState": view_state
+        }
+        r_delete = session.post(URL_VOEUX, headers=headers_ajax, data=payload_delete)
+        match_vs = re.search(r'update id="j_id1:javax\.faces\.ViewState:0"><!\[CDATA\[(.*?)\]\]></update>', r_delete.text)
+        if match_vs: view_state = match_vs.group(1)
+        
+    except Exception as e:
+        print(f" [Erreur Date: {e}]", end="")
+        
+    return date_limite, view_state
+
+
 def login_et_scanner():
     print("\n" + "="*50)
-    print("🚀 DÉMARRAGE DU TRACKER AVEC CONNEXION AUTO")
+    print("🚀 DÉMARRAGE DU TRACKER AVEC CONNEXION AUTO ET DÉLAIS")
     print("="*50 + "\n")
     
+    # CHARGEMENT DU CACHE : On mémorise les anciennes dates pour ne pas spammer le site !
+    cache_dates = {}
+    if os.path.exists("postes_ouverts.json"):
+        try:
+            with open("postes_ouverts.json", "r", encoding="utf-8") as f:
+                anciennes_donnees = json.load(f)
+                for poste in anciennes_donnees.get("postes", []):
+                    if "date_limite" in poste and poste["date_limite"] != "Inconnue":
+                        cache_dates[poste["universite"]] = poste["date_limite"]
+        except Exception:
+            pass
+
     session = requests.Session()
     
-    # ---------------------------------------------------------
-    # ÉTAPE 1 : RÉCUPÉRATION DU VIEWSTATE DE LOGIN
-    # ---------------------------------------------------------
     print("1️⃣ Accès à la page de connexion...")
     try:
         response_login_page = session.get(URL_LOGIN, headers=HEADERS, timeout=10)
@@ -230,13 +331,8 @@ def login_et_scanner():
             return
             
         view_state_login = match_vs_login.group(1)
-        print("✅ Page de connexion chargée.")
         
-        # ---------------------------------------------------------
-        # ÉTAPE 2 : SOUMISSION DES IDENTIFIANTS
-        # ---------------------------------------------------------
         print("2️⃣ Tentative de connexion...")
-        
         payload_login = {
             "loginFrm": "loginFrm",
             "loginFrm:j_username": USERNAME,
@@ -247,34 +343,21 @@ def login_et_scanner():
         
         headers_post_login = HEADERS.copy()
         headers_post_login["Content-Type"] = "application/x-www-form-urlencoded"
-        
         response_auth = session.post(URL_LOGIN, headers=headers_post_login, data=payload_login)
         
-        # Vérification si on voit "Déconnexion" ou "Mon Dossier" dans le HTML renvoyé
         if "Déconnexion" in response_auth.text or "Mon Dossier" in response_auth.text or "BOUSSOUF" in response_auth.text:
             print("✅ Connexion réussie !\n")
         else:
             print("❌ Échec de la connexion. Vérifie tes identifiants.")
             return
 
-        # ---------------------------------------------------------
-        # ÉTAPE 3 : ACCÈS À LA PAGE DES VOEUX
-        # ---------------------------------------------------------
         print("3️⃣ Accès à la page des concours...")
         response_voeux = session.get(URL_VOEUX, headers=HEADERS)
         match_vs_voeux = re.search(r'name="javax\.faces\.ViewState".*?value="([^"]+)"', response_voeux.text)
-        
-        if not match_vs_voeux:
-            print("❌ Échec : ViewState des voeux introuvable.")
-            return
-            
+        if not match_vs_voeux: return
         view_state = match_vs_voeux.group(1)
         
-        # ---------------------------------------------------------
-        # ÉTAPE 4 : LE SCAN DES ÉTABLISSEMENTS
-        # ---------------------------------------------------------
         print(f"\n4️⃣ Début du scan des {len(ETABLISSEMENTS)} universités...\n")
-        
         headers_ajax = HEADERS.copy()
         headers_ajax["Content-Type"] = "application/x-www-form-urlencoded; charset=UTF-8"
         headers_ajax["Faces-Request"] = "partial/ajax"
@@ -304,50 +387,53 @@ def login_et_scanner():
             }
             
             response_post = session.post(URL_VOEUX, headers=headers_ajax, data=payload_ajax)
+            match_new_vs = re.search(r'javax\.faces\.ViewState[^>]*><!\[CDATA\[(.*?)\]\]>', response_post.text)
+            if match_new_vs: view_state = match_new_vs.group(1)
             
             options = re.findall(r'<option value="([^"]+)".*?>(.*?)</option>', response_post.text)
-            filieres = [html.unescape(nom) for val, nom in options if val != "0"]
+            filieres = [(val, html.unescape(nom)) for val, nom in options if val != "0"]
             
             if filieres:
                 print(" ✅ POSTES OUVERTS !")
-                for f in filieres:
-                    # Nettoyage avec Regex
-                    match_nettoyage = re.search(r'Filière \d+:\s*(.*?)\s*\(Nombre de poste :\s*(\d+)\s*\),\s*(.*)', f)
-                    
+                
+                # --- MAGIE DU CACHE : On récupère la date si on ne l'a pas encore ! ---
+                if nom_etab not in cache_dates:
+                    print("     🔍 Récupération de la date limite en cours...", end=" ")
+                    id_premiere_filiere = filieres[0][0] # On prend la toute première
+                    date_univ, view_state = recuperer_date_limite(session, view_state, id_etab, id_premiere_filiere)
+                    cache_dates[nom_etab] = date_univ
+                    print(f"[{date_univ}]")
+                # ----------------------------------------------------------------------
+
+                for val_fil, nom_fil in filieres:
+                    match_nettoyage = re.search(r'Filière \d+:\s*(.*?)\s*\(Nombre de poste :\s*(\d+)\s*\),\s*(.*)', nom_fil)
                     if match_nettoyage:
                         specialite = match_nettoyage.group(1).strip()
                         nb_postes = int(match_nettoyage.group(2))
                         entite = match_nettoyage.group(3).strip()
                     else:
-                        specialite = f
+                        specialite = nom_fil
                         nb_postes = "?"
                         entite = "Inconnue"
                         
-                    print(f"      -> {specialite} ({nb_postes} postes) - {entite}")
+                    print(f"      -> {specialite} ({nb_postes} postes)")
                     
                     resultats_propres.append({
                         "universite": nom_etab,
                         "specialite": specialite,
                         "postes": nb_postes,
-                        "departement": entite
+                        "departement": entite,
+                        "date_limite": cache_dates[nom_etab] # La date est injectée ici !
                     })
                 compteur += 1
             else:
                 print(" Vide.")
                 
-            # Mise à jour vitale du ViewState pour la requête suivante
-            match_new_vs = re.search(r'javax\.faces\.ViewState[^>]*><!\[CDATA\[(.*?)\]\]>', response_post.text)
-            if match_new_vs:
-                view_state = match_new_vs.group(1)
-            
             time.sleep(1) # Pause anti-bannissement
 
         print("\n" + "="*50)
         print(f"🎉 Scan terminé ! {compteur} établissement(s) recrutent actuellement.")
         
-        # ---------------------------------------------------------
-        # ÉTAPE 5 : SAUVEGARDE EN JSON AVEC LA DATE
-        # ---------------------------------------------------------
         donnees_finales = {
             "mise_a_jour": datetime.now().strftime("%d/%m/%Y à %H:%M"),
             "postes": resultats_propres
@@ -363,5 +449,4 @@ def login_et_scanner():
         print(f"\n❌ Erreur technique inattendue : {e}")
 
 if __name__ == "__main__":
-
     login_et_scanner()
