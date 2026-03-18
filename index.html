@@ -110,6 +110,7 @@
                         <th>Spécialité</th>
                         <th>Postes</th>
                         <th>Département / Faculté</th>
+                        <th>Délai</th>
                     </tr>
                 </thead>
                 <tbody id="table-body">
@@ -195,6 +196,7 @@
                 <td data-label="Spécialité">${row.specialite}</td>
                 <td data-label="Postes"><span class="badge bg-primary rounded-pill px-3 py-2">${row.postes}</span></td>
                 <td data-label="Département" class="text-muted">${row.departement}</td>
+                <td data-label="Délai"><span class="badge bg-danger rounded-pill px-2 py-1">${row.date_limite || "Inconnue"}</span></td>
             `;
             tbody.appendChild(tr);
         });
