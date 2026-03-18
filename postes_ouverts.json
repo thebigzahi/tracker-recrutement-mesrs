@@ -1,113 +1,131 @@
 {
-    "mise_a_jour": "18/03/2026 à 08:40",
+    "mise_a_jour": "18/03/2026 à 16:58",
     "postes": [
         {
             "universite": "université de naama",
             "specialite": "Génie des procédés",
             "postes": 1,
-            "departement": "Département de génie mécanique"
+            "departement": "Département de génie mécanique",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Génie electrique",
             "postes": 2,
-            "departement": "Département de génie Electrique"
+            "departement": "Département de génie Electrique",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Télécommunications",
             "postes": 1,
-            "departement": "Institut de  Technologie"
+            "departement": "Institut de  Technologie",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Génie mécanique",
             "postes": 1,
-            "departement": "Département de génie mécanique"
+            "departement": "Département de génie mécanique",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Génie civil",
             "postes": 1,
-            "departement": "Département de génie civil et travaux publics"
+            "departement": "Département de génie civil et travaux publics",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Sciences biologiques",
             "postes": 2,
-            "departement": "Département de biologie"
+            "departement": "Département de biologie",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Sciences alimentaires",
             "postes": 1,
-            "departement": "Département de biologie"
+            "departement": "Département de biologie",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Informatique",
             "postes": 3,
-            "departement": "Département Informatique"
+            "departement": "Département Informatique",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Mathématiques",
             "postes": 2,
-            "departement": "Département Informatique"
+            "departement": "Département Informatique",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Droit",
             "postes": 2,
-            "departement": "Département D'enseignement commun en Droit"
+            "departement": "Département D'enseignement commun en Droit",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Études linguistiques",
             "postes": 1,
-            "departement": "Département Langue et de littérature arabe"
+            "departement": "Département Langue et de littérature arabe",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Langue anglaise",
             "postes": 2,
-            "departement": "Département Langue Anglaise"
+            "departement": "Département Langue Anglaise",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Sciences économiques",
             "postes": 2,
-            "departement": "Département des sciences économiques"
+            "departement": "Département des sciences économiques",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Sciences de gestion",
             "postes": 1,
-            "departement": "Département des sciences de gestion"
+            "departement": "Département des sciences de gestion",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Sciences financières et comptabilité",
             "postes": 2,
-            "departement": "Département des sciences économiques"
+            "departement": "Département des sciences économiques",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Sciences humaines - archéologie",
             "postes": 2,
-            "departement": "Institut des sciences humaines et sociales"
+            "departement": "Institut des sciences humaines et sociales",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Sciences sociales - sociologie",
             "postes": 1,
-            "departement": "Département d’enseignement commun en sciences humaines et sociales"
+            "departement": "Département d’enseignement commun en sciences humaines et sociales",
+            "date_limite": "25/03/2026"
         },
         {
             "universite": "université de naama",
             "specialite": "Sciences islamiques – charia",
             "postes": 2,
-            "departement": "Département d’enseignement commun en sciences humaines et sociales"
+            "departement": "Département d’enseignement commun en sciences humaines et sociales",
+            "date_limite": "25/03/2026"
         }
     ]
 }
