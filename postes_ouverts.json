@@ -1,62 +1,6 @@
 {
-    "mise_a_jour": "29/04/2026 à 20:55",
+    "mise_a_jour": "30/04/2026 à 10:01",
     "postes": [
-        {
-            "universite": "ecole normale supérieure - kouba",
-            "specialite": "Mathématiques",
-            "postes": 2,
-            "departement": "Département des Mathématique",
-            "date_limite": "29/04/2026"
-        },
-        {
-            "universite": "ecole normale supérieure - kouba",
-            "specialite": "Informatique",
-            "postes": 6,
-            "departement": "informatique",
-            "date_limite": "29/04/2026"
-        },
-        {
-            "universite": "ecole normale supérieure - kouba",
-            "specialite": "Langue anglaise",
-            "postes": 2,
-            "departement": "Sciences Naturelles",
-            "date_limite": "29/04/2026"
-        },
-        {
-            "universite": "ecole normale supérieure - kouba",
-            "specialite": "Sciences biologiques",
-            "postes": 2,
-            "departement": "Sciences Naturelles",
-            "date_limite": "29/04/2026"
-        },
-        {
-            "universite": "ecole normale supérieure des sourds-muets",
-            "specialite": "Sciences sociales - sciences des populations",
-            "postes": 1,
-            "departement": "Département des Sciences Sociales et Humaines",
-            "date_limite": "29/04/2026"
-        },
-        {
-            "universite": "ecole normale supérieure des sourds-muets",
-            "specialite": "Sciences sociales - philosophie",
-            "postes": 1,
-            "departement": "Département des Sciences Sociales et Humaines",
-            "date_limite": "29/04/2026"
-        },
-        {
-            "universite": "ecole normale supérieure des sourds-muets",
-            "specialite": "Sciences sociales - sciences des populations",
-            "postes": 1,
-            "departement": "Département des Sciences Sociales et Humaines",
-            "date_limite": "29/04/2026"
-        },
-        {
-            "universite": "ecole normale supérieure des sourds-muets",
-            "specialite": "Sciences sociales - philosophie",
-            "postes": 1,
-            "departement": "Département des Sciences Sociales et Humaines",
-            "date_limite": "29/04/2026"
-        },
         {
             "universite": "ecole nationale supérieure de management",
             "specialite": "Sciences de gestion",
