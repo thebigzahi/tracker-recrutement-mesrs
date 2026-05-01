@@ -323,7 +323,7 @@ def login_et_scanner():
     
     print("1️⃣ Accès à la page de connexion...")
     try:
-        response_login_page = session.get(URL_LOGIN, headers=HEADERS, timeout=10)
+        response_login_page = session.get(URL_LOGIN, headers=HEADERS, timeout=120)
         match_vs_login = re.search(r'name="javax\.faces\.ViewState".*?value="([^"]+)"', response_login_page.text)
         
         if not match_vs_login:
