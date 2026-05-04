@@ -1,4 +1,26 @@
 {
-    "mise_a_jour": "03/05/2026 à 14:14",
-    "postes": []
+    "mise_a_jour": "04/05/2026 à 11:51",
+    "postes": [
+        {
+            "universite": "Université d’alger 2",
+            "specialite": "Sciences humaines - histoire",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines",
+            "date_limite": "21/05/2026"
+        },
+        {
+            "universite": "Université d’alger 2",
+            "specialite": "Sciences humaines - sciences de l’information et de la communication",
+            "postes": 3,
+            "departement": "Faculté des sciences humaines",
+            "date_limite": "21/05/2026"
+        },
+        {
+            "universite": "Université d’alger 2",
+            "specialite": "Sciences sociales - philosophie",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines",
+            "date_limite": "21/05/2026"
+        }
+    ]
 }
