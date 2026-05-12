@@ -1,6 +1,27 @@
 {
-    "mise_a_jour": "12/05/2026 à 14:22",
+    "mise_a_jour": "12/05/2026 à 15:22",
     "postes": [
+        {
+            "universite": "université des sciences islamiques émir abdelkader constantine",
+            "specialite": "Sciences islamiques - oussoul eddine",
+            "postes": 1,
+            "departement": "département de Foi et religions comparées",
+            "date_limite": "01/06/2026"
+        },
+        {
+            "universite": "université des sciences islamiques émir abdelkader constantine",
+            "specialite": "Sciences islamiques - oussoul eddine",
+            "postes": 2,
+            "departement": "département de Kitab et Sunna",
+            "date_limite": "01/06/2026"
+        },
+        {
+            "universite": "université des sciences islamiques émir abdelkader constantine",
+            "specialite": "Sciences humaines - sciences de l’information et de la communication",
+            "postes": 1,
+            "departement": "département de Predication, d'information et de communication",
+            "date_limite": "01/06/2026"
+        },
         {
             "universite": "Université d’alger 2",
             "specialite": "Sciences humaines - histoire",
