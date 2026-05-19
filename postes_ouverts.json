@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "18/05/2026 à 23:37",
+    "mise_a_jour": "19/05/2026 à 17:08",
     "postes": [
         {
             "universite": "université des sciences islamiques émir abdelkader constantine",
@@ -42,48 +42,6 @@
             "postes": 1,
             "departement": "Faculté des sciences humaines",
             "date_limite": "21/05/2026"
-        },
-        {
-            "universite": "université d’alger 1",
-            "specialite": "Informatique",
-            "postes": 15,
-            "departement": "Faculté des  sciences",
-            "date_limite": "22/05/2026"
-        },
-        {
-            "universite": "université d’alger 1",
-            "specialite": "Mathématiques",
-            "postes": 5,
-            "departement": "Faculté des  sciences",
-            "date_limite": "22/05/2026"
-        },
-        {
-            "universite": "université d’alger 1",
-            "specialite": "Architecture",
-            "postes": 6,
-            "departement": "Faculté des  sciences",
-            "date_limite": "22/05/2026"
-        },
-        {
-            "universite": "université d’alger 1",
-            "specialite": "Sciences biologiques",
-            "postes": 2,
-            "departement": "Faculté des  sciences",
-            "date_limite": "22/05/2026"
-        },
-        {
-            "universite": "université d’alger 1",
-            "specialite": "Physique",
-            "postes": 3,
-            "departement": "Faculté des  sciences",
-            "date_limite": "22/05/2026"
-        },
-        {
-            "universite": "université d’alger 1",
-            "specialite": "Chimie",
-            "postes": 1,
-            "departement": "Faculté des  sciences",
-            "date_limite": "22/05/2026"
         }
     ]
 }
