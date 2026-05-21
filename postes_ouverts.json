@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "21/05/2026 à 23:42",
+    "mise_a_jour": "22/05/2026 à 00:42",
     "postes": [
         {
             "universite": "université des sciences islamiques émir abdelkader constantine",
@@ -21,27 +21,6 @@
             "postes": 1,
             "departement": "département de Predication, d'information et de communication",
             "date_limite": "01/06/2026"
-        },
-        {
-            "universite": "Université d’alger 2",
-            "specialite": "Sciences humaines - histoire",
-            "postes": 1,
-            "departement": "Faculté des sciences humaines",
-            "date_limite": "21/05/2026"
-        },
-        {
-            "universite": "Université d’alger 2",
-            "specialite": "Sciences humaines - sciences de l’information et de la communication",
-            "postes": 3,
-            "departement": "Faculté des sciences humaines",
-            "date_limite": "21/05/2026"
-        },
-        {
-            "universite": "Université d’alger 2",
-            "specialite": "Sciences sociales - philosophie",
-            "postes": 1,
-            "departement": "Faculté des sciences humaines",
-            "date_limite": "21/05/2026"
         }
     ]
 }
