@@ -1,17 +1,10 @@
 {
-    "mise_a_jour": "07/06/2026 à 22:45",
+    "mise_a_jour": "07/06/2026 à 23:14",
     "postes": [
         {
             "universite": "université des sciences islamiques émir abdelkader constantine",
             "specialite": "Sciences économiques",
             "postes": 1,
-            "departement": "département d'Economie et d'administration",
-            "date_limite": "01/06/2026"
-        },
-        {
-            "universite": "université des sciences islamiques émir abdelkader constantine",
-            "specialite": "Sciences financières et comptabilité",
-            "postes": 2,
             "departement": "département d'Economie et d'administration",
             "date_limite": "01/06/2026"
         },
