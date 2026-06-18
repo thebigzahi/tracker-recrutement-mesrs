@@ -1,6 +1,41 @@
 {
-    "mise_a_jour": "18/06/2026 à 19:38",
+    "mise_a_jour": "18/06/2026 à 20:38",
     "postes": [
+        {
+            "universite": "université de  constantine 3 salah boubnider",
+            "specialite": "Génie des procédés",
+            "postes": 3,
+            "departement": "Faculté de Génie des Procédés",
+            "date_limite": "17/06/2026"
+        },
+        {
+            "universite": "université de  constantine 3 salah boubnider",
+            "specialite": "Architecture",
+            "postes": 2,
+            "departement": "Faculté d’Architecture et Urbanisme",
+            "date_limite": "17/06/2026"
+        },
+        {
+            "universite": "université de  constantine 3 salah boubnider",
+            "specialite": "Arts du spectacle",
+            "postes": 2,
+            "departement": "Faculté des Arts et de la Culture",
+            "date_limite": "17/06/2026"
+        },
+        {
+            "universite": "université de  constantine 3 salah boubnider",
+            "specialite": "Arts visuels",
+            "postes": 1,
+            "departement": "Faculté des Arts et de la Culture",
+            "date_limite": "17/06/2026"
+        },
+        {
+            "universite": "université de  constantine 3 salah boubnider",
+            "specialite": "Gestion des techniques urbaines",
+            "postes": 2,
+            "departement": "Institut de Gestion des Techniques Urbaines",
+            "date_limite": "17/06/2026"
+        },
         {
             "universite": "université de blida 1",
             "specialite": "Mathématiques",
