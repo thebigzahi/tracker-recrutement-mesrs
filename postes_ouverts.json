@@ -1,6 +1,13 @@
 {
-    "mise_a_jour": "21/06/2026 à 19:22",
+    "mise_a_jour": "21/06/2026 à 20:22",
     "postes": [
+        {
+            "universite": "université de  constantine 3 salah boubnider",
+            "specialite": "Génie des procédés",
+            "postes": 3,
+            "departement": "Faculté de Génie des Procédés",
+            "date_limite": "17/06/2026"
+        },
         {
             "universite": "université de  constantine 3 salah boubnider",
             "specialite": "Architecture",
@@ -259,13 +266,6 @@
             "postes": 3,
             "departement": "Ecole Nationale Superieure en Intelligence Artificielle",
             "date_limite": "21/06/2026"
-        },
-        {
-            "universite": "ecole nationale supérieure d'hydraulique",
-            "specialite": "Mathématiques appliquées",
-            "postes": 3,
-            "departement": "Département Classes préparatoires",
-            "date_limite": "14/07/2026"
         },
         {
             "universite": "ecole nationale supérieure d'hydraulique",
