@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "23/06/2026 à 23:07",
+    "mise_a_jour": "24/06/2026 à 14:59",
     "postes": [
         {
             "universite": "université de  constantine 3 salah boubnider",
@@ -77,34 +77,6 @@
             "postes": 1,
             "departement": "Faculté des sciences sociales",
             "date_limite": "22/06/2026"
-        },
-        {
-            "universite": "école supérieure des sciences de gestion annaba",
-            "specialite": "Sciences de gestion",
-            "postes": 3,
-            "departement": "Département  de la formation 2ème cycle (Master)",
-            "date_limite": "23/06/2026"
-        },
-        {
-            "universite": "école supérieure des sciences de gestion annaba",
-            "specialite": "Sciences commerciales",
-            "postes": 1,
-            "departement": "Département  de la formation 2ème cycle (Master)",
-            "date_limite": "23/06/2026"
-        },
-        {
-            "universite": "école supérieure des sciences de gestion annaba",
-            "specialite": "Sciences financières et comptabilité",
-            "postes": 1,
-            "departement": "Département  de la formation 2ème cycle (Master)",
-            "date_limite": "23/06/2026"
-        },
-        {
-            "universite": "école supérieure des sciences de gestion annaba",
-            "specialite": "Informatique",
-            "postes": 2,
-            "departement": "Département de la formation préparatoire",
-            "date_limite": "23/06/2026"
         },
         {
             "universite": "ecole supérieure de comptabilité et de finance de constantine",
