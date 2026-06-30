@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "30/06/2026 à 00:08",
+    "mise_a_jour": "30/06/2026 à 19:06",
     "postes": [
         {
             "universite": "université de  constantine 3 salah boubnider",
@@ -63,20 +63,6 @@
             "postes": 2,
             "departement": "Faculté de Technologie",
             "date_limite": "21/06/2026"
-        },
-        {
-            "universite": "Université d’alger 2",
-            "specialite": "Sciences sociales - sciences de l'éducation",
-            "postes": 2,
-            "departement": "Faculté des sciences sociales",
-            "date_limite": "22/06/2026"
-        },
-        {
-            "universite": "Université d’alger 2",
-            "specialite": "Sciences sociales - sociologie",
-            "postes": 1,
-            "departement": "Faculté des sciences sociales",
-            "date_limite": "22/06/2026"
         },
         {
             "universite": "ecole supérieure de comptabilité et de finance de constantine",
