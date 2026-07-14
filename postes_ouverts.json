@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "14/07/2026 à 22:09",
+    "mise_a_jour": "14/07/2026 à 22:28",
     "postes": [
         {
             "universite": "université de constantine 1",
@@ -105,20 +105,6 @@
             "postes": 2,
             "departement": "Institut de la nutrition, de l’alimentation et des technologies agro-alimentaires",
             "date_limite": "09/07/2026"
-        },
-        {
-            "universite": "ecole supérieure de comptabilité et de finance de constantine",
-            "specialite": "Langue anglaise",
-            "postes": 2,
-            "departement": "Département de la Formation préparatoire",
-            "date_limite": "13/07/2026"
-        },
-        {
-            "universite": "ecole supérieure de comptabilité et de finance de constantine",
-            "specialite": "Mathématiques",
-            "postes": 1,
-            "departement": "Département des Formations de second cycle",
-            "date_limite": "13/07/2026"
         }
     ]
 }
