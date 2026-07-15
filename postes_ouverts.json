@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "15/07/2026 à 15:28",
+    "mise_a_jour": "15/07/2026 à 16:28",
     "postes": [
         {
             "universite": "université de constantine 1",
@@ -105,6 +105,20 @@
             "postes": 2,
             "departement": "Institut de la nutrition, de l’alimentation et des technologies agro-alimentaires",
             "date_limite": "09/07/2026"
+        },
+        {
+            "universite": "Université d’alger 2",
+            "specialite": "Traduction",
+            "postes": 4,
+            "departement": "Institut de traduction",
+            "date_limite": "28/07/2026"
+        },
+        {
+            "universite": "Université d’alger 2",
+            "specialite": "Traduction",
+            "postes": 4,
+            "departement": "Institut de traduction",
+            "date_limite": "28/07/2026"
         }
     ]
 }
