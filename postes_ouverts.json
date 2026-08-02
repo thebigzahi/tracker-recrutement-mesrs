@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "02/08/2026 à 14:45",
+    "mise_a_jour": "02/08/2026 à 15:45",
     "postes": [
         {
             "universite": "université de bordj bou arréridj",
@@ -59,13 +59,6 @@
         },
         {
             "universite": "Ecole nationale Supérieure d'Informatique",
-            "specialite": "Informatique",
-            "postes": 13,
-            "departement": "Direction des enseignements, des diplômes et de la formation continue",
-            "date_limite": "29/07/2026"
-        },
-        {
-            "universite": "Ecole nationale Supérieure d'Informatique",
             "specialite": "Mathématiques",
             "postes": 2,
             "departement": "Direction des enseignements, des diplômes et de la formation continue",
@@ -82,13 +75,6 @@
             "universite": "Ecole nationale Supérieure d'Informatique",
             "specialite": "Sciences de gestion",
             "postes": 1,
-            "departement": "Direction des enseignements, des diplômes et de la formation continue",
-            "date_limite": "29/07/2026"
-        },
-        {
-            "universite": "Ecole nationale Supérieure d'Informatique",
-            "specialite": "Informatique",
-            "postes": 13,
             "departement": "Direction des enseignements, des diplômes et de la formation continue",
             "date_limite": "29/07/2026"
         },
