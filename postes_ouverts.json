@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "08/08/2026 à 23:48",
+    "mise_a_jour": "11/08/2026 à 07:47",
     "postes": [
         {
             "universite": "université des sciences et de la technologie houari boumediène alger",
@@ -126,6 +126,69 @@
             "postes": 5,
             "departement": "Faculté de Physique",
             "date_limite": "16/08/2026"
+        },
+        {
+            "universite": "université de ouargla",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "30/08/2026"
+        },
+        {
+            "universite": "université de ouargla",
+            "specialite": "Hydrocarbures",
+            "postes": 1,
+            "departement": "Faculté des hydrocarbures, des énergies renouvelables, des sciences de la terre et de l’univers",
+            "date_limite": "30/08/2026"
+        },
+        {
+            "universite": "université de ouargla",
+            "specialite": "Mathématiques",
+            "postes": 2,
+            "departement": "Faculté des mathématiques et des sciences de la matière",
+            "date_limite": "30/08/2026"
+        },
+        {
+            "universite": "université de ouargla",
+            "specialite": "Physique",
+            "postes": 2,
+            "departement": "Faculté des Sciences Appliquées",
+            "date_limite": "30/08/2026"
+        },
+        {
+            "universite": "université de ouargla",
+            "specialite": "Informatique",
+            "postes": 1,
+            "departement": "Faculté des nouvelles technologies de l’information et de la communication",
+            "date_limite": "30/08/2026"
+        },
+        {
+            "universite": "université de ouargla",
+            "specialite": "Electronique",
+            "postes": 1,
+            "departement": "Faculté des nouvelles technologies de l’information et de la communication",
+            "date_limite": "30/08/2026"
+        },
+        {
+            "universite": "université de ouargla",
+            "specialite": "Géophysique",
+            "postes": 1,
+            "departement": "Faculté des hydrocarbures, des énergies renouvelables, des sciences de la terre et de l’univers",
+            "date_limite": "30/08/2026"
+        },
+        {
+            "universite": "université de ouargla",
+            "specialite": "Sciences biologiques",
+            "postes": 1,
+            "departement": "Faculté des sciences de la nature et de la vie",
+            "date_limite": "30/08/2026"
+        },
+        {
+            "universite": "université de ouargla",
+            "specialite": "Sciences agronomiques",
+            "postes": 1,
+            "departement": "Faculté des sciences de la nature et de la vie",
+            "date_limite": "30/08/2026"
         },
         {
             "universite": "université de laghouat",
