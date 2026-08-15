@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "11/08/2026 à 23:36",
+    "mise_a_jour": "15/08/2026 à 15:06",
     "postes": [
         {
             "universite": "université des sciences et de la technologie houari boumediène alger",
@@ -427,62 +427,6 @@
             "postes": 1,
             "departement": "Faculté de médecine",
             "date_limite": "22/08/2026"
-        },
-        {
-            "universite": "université de bordj bou arréridj",
-            "specialite": "Droit",
-            "postes": 4,
-            "departement": "Rectorat",
-            "date_limite": "14/08/2026"
-        },
-        {
-            "universite": "université de bordj bou arréridj",
-            "specialite": "Sciences économiques",
-            "postes": 1,
-            "departement": "Rectorat",
-            "date_limite": "14/08/2026"
-        },
-        {
-            "universite": "université de bordj bou arréridj",
-            "specialite": "Informatique",
-            "postes": 2,
-            "departement": "Rectorat",
-            "date_limite": "14/08/2026"
-        },
-        {
-            "universite": "université de bordj bou arréridj",
-            "specialite": "Sciences sociales - psychologie",
-            "postes": 1,
-            "departement": "Rectorat",
-            "date_limite": "14/08/2026"
-        },
-        {
-            "universite": "université de bordj bou arréridj",
-            "specialite": "Sciences islamiques - oussoul eddine",
-            "postes": 1,
-            "departement": "Rectorat",
-            "date_limite": "14/08/2026"
-        },
-        {
-            "universite": "université de bordj bou arréridj",
-            "specialite": "Langue française",
-            "postes": 2,
-            "departement": "Rectorat",
-            "date_limite": "14/08/2026"
-        },
-        {
-            "universite": "université de bordj bou arréridj",
-            "specialite": "Langue anglaise",
-            "postes": 2,
-            "departement": "Rectorat",
-            "date_limite": "14/08/2026"
-        },
-        {
-            "universite": "université de bordj bou arréridj",
-            "specialite": "Sciences biologiques",
-            "postes": 1,
-            "departement": "Rectorat",
-            "date_limite": "14/08/2026"
         },
         {
             "universite": "Ecole nationale Supérieure d'Informatique",
