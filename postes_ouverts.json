@@ -1,6 +1,13 @@
 {
-    "mise_a_jour": "23/08/2026 à 22:41",
+    "mise_a_jour": "23/08/2026 à 23:41",
     "postes": [
+        {
+            "universite": "université des sciences et de la technologie houari boumediène alger",
+            "specialite": "Télécommunications",
+            "postes": 1,
+            "departement": "Faculté de Génie Electrique",
+            "date_limite": "16/08/2026"
+        },
         {
             "universite": "université des sciences et de la technologie houari boumediène alger",
             "specialite": "Electrotechnique",
@@ -364,13 +371,6 @@
             "postes": 1,
             "departement": "Faculté des sciences de la nature et de la vie",
             "date_limite": "30/08/2026"
-        },
-        {
-            "universite": "université de boumerdes",
-            "specialite": "Génie mécanique",
-            "postes": 1,
-            "departement": "Faculté de technologie",
-            "date_limite": "26/08/2026"
         },
         {
             "universite": "université de boumerdes",
