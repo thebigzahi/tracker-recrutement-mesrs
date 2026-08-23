@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "23/08/2026 à 21:41",
+    "mise_a_jour": "23/08/2026 à 22:41",
     "postes": [
         {
             "universite": "université des sciences et de la technologie houari boumediène alger",
@@ -364,6 +364,118 @@
             "postes": 1,
             "departement": "Faculté des sciences de la nature et de la vie",
             "date_limite": "30/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Génie mécanique",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Electromécanique",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Études linguistiques",
+            "postes": 1,
+            "departement": "ECOLE NORMALE SUPERIEURE DE BOUZAREAH - UNIVERSITE DE BOUMERDES",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Electronique",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Electrotechnique",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Informatique",
+            "postes": 4,
+            "departement": "Faculté des sciences",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Mathématiques",
+            "postes": 4,
+            "departement": "Faculté des sciences",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Mathématiques appliquées",
+            "postes": 1,
+            "departement": "Faculté des sciences",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Physique",
+            "postes": 2,
+            "departement": "Faculté des sciences",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Sciences agronomiques",
+            "postes": 2,
+            "departement": "Faculté des sciences",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Sciences biologiques",
+            "postes": 2,
+            "departement": "Faculté des sciences",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion.",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Langue française",
+            "postes": 1,
+            "departement": "Faculté des Lettres et des Langues",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Langue russe",
+            "postes": 1,
+            "departement": "Faculté des Lettres et des Langues",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Electrotechnique",
+            "postes": 1,
+            "departement": "Institut de génie électrique et électronique.",
+            "date_limite": "26/08/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Études critiques",
+            "postes": 1,
+            "departement": "ECOLE NORMALE SUPERIEURE DE BOUZAREAH - UNIVERSITE DE BOUMERDES",
+            "date_limite": "26/08/2026"
         },
         {
             "universite": "université de blida 2",
