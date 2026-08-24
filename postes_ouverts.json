@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "23/08/2026 à 23:41",
+    "mise_a_jour": "24/08/2026 à 20:27",
     "postes": [
         {
             "universite": "université des sciences et de la technologie houari boumediène alger",
@@ -567,6 +567,34 @@
             "postes": 1,
             "departement": "Faculté des sciences humaines et sociales",
             "date_limite": "07/09/2026"
+        },
+        {
+            "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
+            "specialite": "Génie mécanique",
+            "postes": 1,
+            "departement": "Département de Génie des Procédés et Énergétique",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
+            "specialite": "Electrotechnique",
+            "postes": 1,
+            "departement": "Département d'Électronique , d'Électrotechnique et Automatique",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
+            "specialite": "Electronique",
+            "postes": 2,
+            "departement": "Département d'Électronique , d'Électrotechnique et Automatique",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
+            "specialite": "Electromécanique",
+            "postes": 1,
+            "departement": "Département de Génie Industriel",
+            "date_limite": "14/09/2026"
         }
     ]
 }
