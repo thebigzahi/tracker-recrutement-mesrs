@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "24/08/2026 à 22:27",
+    "mise_a_jour": "25/08/2026 à 14:32",
     "postes": [
         {
             "universite": "université des sciences et de la technologie houari boumediène alger",
@@ -567,6 +567,20 @@
             "postes": 1,
             "departement": "Faculté des sciences humaines et sociales",
             "date_limite": "07/09/2026"
+        },
+        {
+            "universite": "ecole supérieure agronomique de mostaganem",
+            "specialite": "Sciences agronomiques",
+            "postes": 4,
+            "departement": "Second Cycle",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "ecole supérieure agronomique de mostaganem",
+            "specialite": "Informatique",
+            "postes": 1,
+            "departement": "Premier Cycle Préparatoire",
+            "date_limite": "14/09/2026"
         },
         {
             "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
