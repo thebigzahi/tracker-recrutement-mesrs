@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "25/08/2026 à 19:33",
+    "mise_a_jour": "26/08/2026 à 21:07",
     "postes": [
         {
             "universite": "université des sciences et de la technologie houari boumediène alger",
@@ -373,6 +373,118 @@
             "date_limite": "30/08/2026"
         },
         {
+            "universite": "université de chlef",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Sciences commerciales",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Droit",
+            "postes": 2,
+            "departement": "Faculté de droit et des sciences politiques.",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Traduction",
+            "postes": 1,
+            "departement": "Faculté des langues étrangères",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Langue anglaise",
+            "postes": 2,
+            "departement": "Faculté des langues étrangères",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Sciences agronomiques",
+            "postes": 2,
+            "departement": "Faculté des sciences de la nature et de la vie",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Sciences alimentaires",
+            "postes": 1,
+            "departement": "Faculté des sciences de la nature et de la vie",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Architecture",
+            "postes": 1,
+            "departement": "Faculté de génie civil et d’architecture",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Génie civil",
+            "postes": 1,
+            "departement": "Faculté de génie civil et d’architecture",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Informatique",
+            "postes": 3,
+            "departement": "Faculté des sciences exactes et informatique",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Génie des procédés",
+            "postes": 2,
+            "departement": "Faculté de technologie",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Hydrobiologie marine et continentale",
+            "postes": 1,
+            "departement": "Institut des Sciences et Techniques de la Mer",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Génie mécanique",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Mathématiques",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Electronique",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de chlef",
+            "specialite": "Electrotechnique",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "14/09/2026"
+        },
+        {
             "universite": "université de boumerdes",
             "specialite": "Electromécanique",
             "postes": 1,
@@ -567,6 +679,62 @@
             "postes": 1,
             "departement": "Faculté des sciences humaines et sociales",
             "date_limite": "07/09/2026"
+        },
+        {
+            "universite": "université constantine 2-abdelhamid mehri",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 2,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "université constantine 2-abdelhamid mehri",
+            "specialite": "Sciences économiques",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "université constantine 2-abdelhamid mehri",
+            "specialite": "Sciences humaines - histoire",
+            "postes": 3,
+            "departement": "Faculté des sciences humaines et des sciences sociales",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "université constantine 2-abdelhamid mehri",
+            "specialite": "Sciences humaines - histoire",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et des sciences sociales",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "université constantine 2-abdelhamid mehri",
+            "specialite": "Sciences humaines - archéologie",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et des sciences sociales",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "université constantine 2-abdelhamid mehri",
+            "specialite": "Sciences sociales - sciences de l'éducation",
+            "postes": 2,
+            "departement": "Faculté de psychologie et des sciences de l’éducation",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "université constantine 2-abdelhamid mehri",
+            "specialite": "Sciences sociales - orthophonie",
+            "postes": 1,
+            "departement": "Faculté de psychologie et des sciences de l’éducation",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "université constantine 2-abdelhamid mehri",
+            "specialite": "Sciences sociales - psychologie",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et des sciences sociales",
+            "date_limite": "13/09/2026"
         },
         {
             "universite": "ecole supérieure agronomique de mostaganem",
