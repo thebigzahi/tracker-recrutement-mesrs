@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "31/08/2026 à 16:19",
+    "mise_a_jour": "31/08/2026 à 17:18",
     "postes": [
         {
             "universite": "université de sétif 1",
@@ -539,6 +539,216 @@
             "postes": 1,
             "departement": "Faculté des sciences humaines et des sciences sociales",
             "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences biologiques",
+            "postes": 1,
+            "departement": "Faculté  des sciences biologiques et des sciences agronomiques",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Langue française",
+            "postes": 3,
+            "departement": "Faculté des Lettres et des langues",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Electrotechnique",
+            "postes": 2,
+            "departement": "Faculté de génie électrique et d’informatique",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences biologiques",
+            "postes": 1,
+            "departement": "Faculté  des sciences biologiques et des sciences agronomiques",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences alimentaires",
+            "postes": 1,
+            "departement": "Faculté  des sciences biologiques et des sciences agronomiques",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Génie mécanique",
+            "postes": 3,
+            "departement": "Faculté du génie de la construction",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Langue anglaise",
+            "postes": 2,
+            "departement": "Faculté des Lettres et des langues",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Automatique",
+            "postes": 4,
+            "departement": "Faculté de génie électrique et d’informatique",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Génie biomédical",
+            "postes": 3,
+            "departement": "Faculté de génie électrique et d’informatique",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Génie civil",
+            "postes": 2,
+            "departement": "Faculté du génie de la construction",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Electronique",
+            "postes": 4,
+            "departement": "Faculté de génie électrique et d’informatique",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences biologiques",
+            "postes": 1,
+            "departement": "Faculté  des sciences biologiques et des sciences agronomiques",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences agronomiques",
+            "postes": 1,
+            "departement": "Faculté  des sciences biologiques et des sciences agronomiques",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Traduction",
+            "postes": 2,
+            "departement": "Faculté des Lettres et des langues",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences commerciales",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Télécommunications",
+            "postes": 2,
+            "departement": "Faculté de génie électrique et d’informatique",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences commerciales",
+            "postes": 3,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Informatique",
+            "postes": 2,
+            "departement": "Faculté de génie électrique et d’informatique",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences commerciales",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Physique",
+            "postes": 1,
+            "departement": "Faculté des sciences",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences économiques",
+            "postes": 3,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences économiques",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences humaines - bibliothéconomie",
+            "postes": 2,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Ecologie et environnement",
+            "postes": 1,
+            "departement": "Faculté  des sciences biologiques et des sciences agronomiques",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Sciences sociales - orthophonie",
+            "postes": 2,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Architecture",
+            "postes": 1,
+            "departement": "Faculté du génie de la construction",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Mathématiques",
+            "postes": 5,
+            "departement": "Faculté des sciences",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Hydraulique",
+            "postes": 1,
+            "departement": "Faculté du génie de la construction",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Chimie",
+            "postes": 4,
+            "departement": "Faculté des sciences",
+            "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "Université mouloud mammeri – tizi ouzou",
+            "specialite": "Mathématiques appliquées",
+            "postes": 5,
+            "departement": "Faculté des sciences",
+            "date_limite": "20/09/2026"
         },
         {
             "universite": "ecole supérieure agronomique de mostaganem",
