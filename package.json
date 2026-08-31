@@ -1,0 +1,23 @@
+{
+  "name": "tracker-recrutement-mesrs",
+  "version": "1.0.0",
+  "description": "Tracker des Postes de Maître Assistant (MESRS)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebigzahi/tracker-recrutement-mesrs.git"
+  },
+  "keywords": ["tracker", "mesrs", "recrutement"],
+  "author": "Dr. BOUSSOUF A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebigzahi/tracker-recrutement-mesrs/issues"
+  },
+  "homepage": "https://github.com/thebigzahi/tracker-recrutement-mesrs#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
