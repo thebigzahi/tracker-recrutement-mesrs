@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "01/09/2026 à 19:05",
+    "mise_a_jour": "01/09/2026 à 20:06",
     "postes": [
         {
             "universite": "université de saida",
@@ -161,6 +161,13 @@
             "postes": 1,
             "departement": "Faculté de technologie",
             "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "université de boumerdes",
+            "specialite": "Génie mécanique",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "26/08/2026"
         },
         {
             "universite": "université de boumerdes",
@@ -640,13 +647,6 @@
         },
         {
             "universite": "ecole normale supérieure de saida",
-            "specialite": "Études linguistiques",
-            "postes": 3,
-            "departement": "ecole normale supérieure de saida",
-            "date_limite": "13/09/2026"
-        },
-        {
-            "universite": "ecole normale supérieure de saida",
             "specialite": "Langue anglaise",
             "postes": 1,
             "departement": "ecole normale supérieure de saida",
@@ -656,13 +656,6 @@
             "universite": "ecole normale supérieure de saida",
             "specialite": "Langue française",
             "postes": 1,
-            "departement": "ecole normale supérieure de saida",
-            "date_limite": "13/09/2026"
-        },
-        {
-            "universite": "ecole normale supérieure de saida",
-            "specialite": "Études littéraires",
-            "postes": 3,
             "departement": "ecole normale supérieure de saida",
             "date_limite": "13/09/2026"
         },
