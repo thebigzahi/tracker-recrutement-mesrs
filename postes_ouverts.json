@@ -1,132 +1,6 @@
 {
-    "mise_a_jour": "31/08/2026 à 21:18",
+    "mise_a_jour": "01/09/2026 à 19:05",
     "postes": [
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Informatique",
-            "postes": 4,
-            "departement": "Faculté des sciences",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Génie des procédés",
-            "postes": 1,
-            "departement": "institut des sciences et techniques des matériaux",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Chimie",
-            "postes": 1,
-            "departement": "Faculté des sciences",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Physique",
-            "postes": 1,
-            "departement": "Faculté des sciences",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Mathématiques",
-            "postes": 4,
-            "departement": "Faculté des sciences",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Sciences agronomiques",
-            "postes": 1,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Sciences biologiques",
-            "postes": 3,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Biotechnologies",
-            "postes": 1,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Sciences commerciales",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Sciences économiques",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Sciences de gestion",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Sciences financières et comptabilité",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Aéronautique",
-            "postes": 2,
-            "departement": "Faculté de Technologie",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Génie des procédés",
-            "postes": 2,
-            "departement": "Faculté de Technologie",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Optique et mécanique de précision",
-            "postes": 2,
-            "departement": "Institut d’optique et mécanique de précision",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Urbanisme",
-            "postes": 1,
-            "departement": "Institut d’architecture et des sciences de la terre",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Géophysique",
-            "postes": 1,
-            "departement": "Institut d’architecture et des sciences de la terre",
-            "date_limite": "31/08/2026"
-        },
-        {
-            "universite": "université de sétif 1",
-            "specialite": "Gestion des techniques urbaines",
-            "postes": 1,
-            "departement": "Institut d’architecture et des sciences de la terre",
-            "date_limite": "31/08/2026"
-        },
         {
             "universite": "université de saida",
             "specialite": "Sciences sociales - orthophonie",
@@ -763,6 +637,34 @@
             "postes": 1,
             "departement": "Premier Cycle Préparatoire",
             "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de saida",
+            "specialite": "Études linguistiques",
+            "postes": 3,
+            "departement": "ecole normale supérieure de saida",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de saida",
+            "specialite": "Langue anglaise",
+            "postes": 1,
+            "departement": "ecole normale supérieure de saida",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de saida",
+            "specialite": "Langue française",
+            "postes": 1,
+            "departement": "ecole normale supérieure de saida",
+            "date_limite": "13/09/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de saida",
+            "specialite": "Études littéraires",
+            "postes": 3,
+            "departement": "ecole normale supérieure de saida",
+            "date_limite": "13/09/2026"
         },
         {
             "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
