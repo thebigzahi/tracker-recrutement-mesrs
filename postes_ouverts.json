@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "06/09/2026 à 15:28",
+    "mise_a_jour": "06/09/2026 à 16:28",
     "postes": [
         {
             "universite": "université de saida",
@@ -686,6 +686,20 @@
             "postes": 1,
             "departement": "Département de Génie Industriel",
             "date_limite": "14/09/2026"
+        },
+        {
+            "universite": "ecole nationale supérieure agronomique",
+            "specialite": "Sciences agronomiques",
+            "postes": 1,
+            "departement": "GR-Hydraulique",
+            "date_limite": "24/09/2026"
+        },
+        {
+            "universite": "ecole nationale supérieure agronomique",
+            "specialite": "Chimie",
+            "postes": 1,
+            "departement": "Technologie alimentaire",
+            "date_limite": "24/09/2026"
         }
     ]
 }
