@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "07/09/2026 à 21:20",
+    "mise_a_jour": "08/09/2026 à 18:18",
     "postes": [
         {
             "universite": "université de saida",
@@ -275,97 +275,6 @@
             "date_limite": "26/08/2026"
         },
         {
-            "universite": "université de blida 2",
-            "specialite": "Sciences de gestion",
-            "postes": 2,
-            "departement": "Faculté des  sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Sciences économiques",
-            "postes": 1,
-            "departement": "Faculté des  sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Mathématiques",
-            "postes": 1,
-            "departement": "Faculté des  sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Langue anglaise",
-            "postes": 3,
-            "departement": "Faculté des lettres et langues étrangères",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Droit",
-            "postes": 1,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Langue italienne",
-            "postes": 4,
-            "departement": "Faculté des lettres et langues étrangères",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Informatique",
-            "postes": 2,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Traduction",
-            "postes": 3,
-            "departement": "Faculté des lettres et langues étrangères",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Langue française",
-            "postes": 2,
-            "departement": "Faculté des lettres et langues étrangères",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Études linguistiques",
-            "postes": 2,
-            "departement": "Faculté des lettres et langues étrangères",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Sciences humaines - sciences de l’information et de la communication",
-            "postes": 3,
-            "departement": "Faculté des sciences humaines et sociales",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Sciences sociales - psychologie",
-            "postes": 1,
-            "departement": "Faculté des sciences humaines et sociales",
-            "date_limite": "07/09/2026"
-        },
-        {
-            "universite": "université de blida 2",
-            "specialite": "Sciences sociales - orthophonie",
-            "postes": 1,
-            "departement": "Faculté des sciences humaines et sociales",
-            "date_limite": "07/09/2026"
-        },
-        {
             "universite": "université constantine 2-abdelhamid mehri",
             "specialite": "Sciences financières et comptabilité",
             "postes": 2,
@@ -630,6 +539,20 @@
             "postes": 5,
             "departement": "Faculté des sciences",
             "date_limite": "20/09/2026"
+        },
+        {
+            "universite": "école supérieure en sciences et technologies de l'informatique et du numérique de bejaia",
+            "specialite": "Informatique",
+            "postes": 8,
+            "departement": "Ecole supérieure en Sciences et Technologies de l’Informatique et du Numérique",
+            "date_limite": "28/09/2026"
+        },
+        {
+            "universite": "école supérieure en sciences et technologies de l'informatique et du numérique de bejaia",
+            "specialite": "Langue anglaise",
+            "postes": 1,
+            "departement": "Ecole supérieure en Sciences et Technologies de l’Informatique et du Numérique",
+            "date_limite": "28/09/2026"
         },
         {
             "universite": "ecole supérieure agronomique de mostaganem",
