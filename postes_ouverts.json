@@ -1,55 +1,6 @@
 {
-    "mise_a_jour": "12/09/2026 à 16:42",
+    "mise_a_jour": "13/09/2026 à 11:32",
     "postes": [
-        {
-            "universite": "université de saida",
-            "specialite": "Sciences sociales - orthophonie",
-            "postes": 4,
-            "departement": "Faculté des sciences sociales et humaines",
-            "date_limite": "12/09/2026"
-        },
-        {
-            "universite": "université de saida",
-            "specialite": "Langue anglaise",
-            "postes": 7,
-            "departement": "Faculté des lettres,  des langues et des arts",
-            "date_limite": "12/09/2026"
-        },
-        {
-            "universite": "université de saida",
-            "specialite": "Informatique",
-            "postes": 4,
-            "departement": "faculté des mathématiques et l'informatique et des télécommunications",
-            "date_limite": "12/09/2026"
-        },
-        {
-            "universite": "université de saida",
-            "specialite": "Architecture",
-            "postes": 4,
-            "departement": "Faculté de science et technologie",
-            "date_limite": "12/09/2026"
-        },
-        {
-            "universite": "université de saida",
-            "specialite": "Sciences de gestion",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques,  commerciales et des sciences de gestion",
-            "date_limite": "12/09/2026"
-        },
-        {
-            "universite": "université de saida",
-            "specialite": "Sciences économiques",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques,  commerciales et des sciences de gestion",
-            "date_limite": "12/09/2026"
-        },
-        {
-            "universite": "université de saida",
-            "specialite": "Traduction",
-            "postes": 1,
-            "departement": "Faculté des lettres,  des langues et des arts",
-            "date_limite": "12/09/2026"
-        },
         {
             "universite": "université de médéa",
             "specialite": "Informatique",
