@@ -1,6 +1,83 @@
 {
-    "mise_a_jour": "13/09/2026 à 15:32",
+    "mise_a_jour": "13/09/2026 à 16:34",
     "postes": [
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Études littéraires",
+            "postes": 1,
+            "departement": "département Langue et des lettres arabes",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Langue française",
+            "postes": 1,
+            "departement": "Département de la langue Francaise",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Langue anglaise",
+            "postes": 3,
+            "departement": "Département de la langue Anglaise",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Informatique",
+            "postes": 1,
+            "departement": "Faculté de mathématiques et de l’informatique",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Sciences biologiques",
+            "postes": 1,
+            "departement": "Département de biologie",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Droit",
+            "postes": 1,
+            "departement": "Faculté de droit et des sciences politiques",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Electronique",
+            "postes": 1,
+            "departement": "Faculté des sciences appliquées",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Electronique",
+            "postes": 1,
+            "departement": "Faculté des sciences appliquées",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Télécommunications",
+            "postes": 1,
+            "departement": "Faculté des sciences appliquées",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Filière 1: Sciences humaines - sciences de l’information et de la communication (Nombre de poste : null ), Faculté des sciences humaines et sociales",
+            "postes": "?",
+            "departement": "Inconnue",
+            "date_limite": "01/10/2026"
+        },
         {
             "universite": "université de médéa",
             "specialite": "Informatique",
