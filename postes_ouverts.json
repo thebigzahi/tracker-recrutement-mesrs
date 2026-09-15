@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "14/09/2026 à 22:31",
+    "mise_a_jour": "15/09/2026 à 11:43",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -168,118 +168,6 @@
             "postes": 1,
             "departement": "Faculté de droit et des sciences politiques",
             "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Sciences financières et comptabilité",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Sciences commerciales",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Droit",
-            "postes": 2,
-            "departement": "Faculté de droit et des sciences politiques.",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Traduction",
-            "postes": 1,
-            "departement": "Faculté des langues étrangères",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Langue anglaise",
-            "postes": 2,
-            "departement": "Faculté des langues étrangères",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Sciences agronomiques",
-            "postes": 2,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Sciences alimentaires",
-            "postes": 1,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Architecture",
-            "postes": 1,
-            "departement": "Faculté de génie civil et d’architecture",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Génie civil",
-            "postes": 1,
-            "departement": "Faculté de génie civil et d’architecture",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Informatique",
-            "postes": 3,
-            "departement": "Faculté des sciences exactes et informatique",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Génie des procédés",
-            "postes": 2,
-            "departement": "Faculté de technologie",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Hydrobiologie marine et continentale",
-            "postes": 1,
-            "departement": "Institut des Sciences et Techniques de la Mer",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Génie mécanique",
-            "postes": 1,
-            "departement": "Faculté de technologie",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Mathématiques",
-            "postes": 1,
-            "departement": "Faculté de technologie",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Electronique",
-            "postes": 1,
-            "departement": "Faculté de technologie",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "université de chlef",
-            "specialite": "Electrotechnique",
-            "postes": 1,
-            "departement": "Faculté de technologie",
-            "date_limite": "14/09/2026"
         },
         {
             "universite": "Université mouloud mammeri – tizi ouzou",
@@ -506,20 +394,6 @@
             "date_limite": "28/09/2026"
         },
         {
-            "universite": "ecole supérieure agronomique de mostaganem",
-            "specialite": "Sciences agronomiques",
-            "postes": 4,
-            "departement": "Second Cycle",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "ecole supérieure agronomique de mostaganem",
-            "specialite": "Informatique",
-            "postes": 1,
-            "departement": "Premier Cycle Préparatoire",
-            "date_limite": "14/09/2026"
-        },
-        {
             "universite": "ecole normale supérieure de saida",
             "specialite": "Langue anglaise",
             "postes": 1,
@@ -532,34 +406,6 @@
             "postes": 1,
             "departement": "ecole normale supérieure de saida",
             "date_limite": "13/09/2026"
-        },
-        {
-            "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
-            "specialite": "Génie mécanique",
-            "postes": 1,
-            "departement": "Département de Génie des Procédés et Énergétique",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
-            "specialite": "Electrotechnique",
-            "postes": 1,
-            "departement": "Département d'Électronique , d'Électrotechnique et Automatique",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
-            "specialite": "Electronique",
-            "postes": 2,
-            "departement": "Département d'Électronique , d'Électrotechnique et Automatique",
-            "date_limite": "14/09/2026"
-        },
-        {
-            "universite": "École Nationale Supérieure de Technologie et d'Ingénierie (Annaba)",
-            "specialite": "Electromécanique",
-            "postes": 1,
-            "departement": "Département de Génie Industriel",
-            "date_limite": "14/09/2026"
         },
         {
             "universite": "ecole nationale supérieure agronomique",
