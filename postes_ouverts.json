@@ -1,11 +1,18 @@
 {
-    "mise_a_jour": "15/09/2026 à 23:43",
+    "mise_a_jour": "17/09/2026 à 16:28",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
             "specialite": "Études littéraires",
             "postes": 1,
             "departement": "département Langue et des lettres arabes",
+            "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université ibn khaldoun - tiaret",
+            "specialite": "Arts visuels",
+            "postes": 3,
+            "departement": "Faculté des lettres et langues",
             "date_limite": "01/10/2026"
         },
         {
@@ -73,9 +80,9 @@
         },
         {
             "universite": "université ibn khaldoun - tiaret",
-            "specialite": "Filière 1: Sciences humaines - sciences de l’information et de la communication (Nombre de poste : null ), Faculté des sciences humaines et sociales",
-            "postes": "?",
-            "departement": "Inconnue",
+            "specialite": "Sciences humaines - sciences de l’information et de la communication",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et sociales",
             "date_limite": "01/10/2026"
         },
         {
