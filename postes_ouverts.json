@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "20/09/2026 à 15:47",
+    "mise_a_jour": "20/09/2026 à 16:47",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -175,6 +175,153 @@
             "postes": 1,
             "departement": "Faculté de droit et des sciences politiques",
             "date_limite": "27/09/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Sciences économiques",
+            "postes": 1,
+            "departement": "Faculté sciences économiques,commerciales et de gestion",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Études littéraires",
+            "postes": 1,
+            "departement": "ECOLE NORMALE SUPERIEURE DE BOUZAREAH   - ANNEXE KHEMIS MILIANA",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Droit",
+            "postes": 1,
+            "departement": "Faculté de droit et des sciences politiques",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Études critiques",
+            "postes": 1,
+            "departement": "ECOLE NORMALE SUPERIEURE DE BOUZAREAH   - ANNEXE KHEMIS MILIANA",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Sciences humaines - sciences de l’information et de la communication",
+            "postes": 1,
+            "departement": "Faculté des Sciences humaines et sociales",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Études linguistiques",
+            "postes": 3,
+            "departement": "ECOLE NORMALE SUPERIEURE DE BOUZAREAH   - ANNEXE KHEMIS MILIANA",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Sciences sociales - orthophonie",
+            "postes": 2,
+            "departement": "Faculté des Sciences humaines et sociales",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Mathématiques",
+            "postes": 2,
+            "departement": "ECOLE NORMALE SUPERIEURE DE BOUZAREAH   - ANNEXE KHEMIS MILIANA",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Sciences sociales - psychologie",
+            "postes": 2,
+            "departement": "Faculté des Sciences humaines et sociales",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Sciences humaines - histoire",
+            "postes": 1,
+            "departement": "ECOLE NORMALE SUPERIEURE DE BOUZAREAH   - ANNEXE KHEMIS MILIANA",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Entrainement sportif",
+            "postes": 2,
+            "departement": "Institut  des sciences et techniques des activités physiques et sportives",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Génie mécanique",
+            "postes": 1,
+            "departement": "Faculté des sciences et de la technologie",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Activité physique et sportive éducative",
+            "postes": 1,
+            "departement": "Institut  des sciences et techniques des activités physiques et sportives",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Electrotechnique",
+            "postes": 1,
+            "departement": "Faculté des sciences et de la technologie",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Physique",
+            "postes": 1,
+            "departement": "Faculté des sciences et de la technologie",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Sciences biologiques",
+            "postes": 2,
+            "departement": "Faculté des sciences de la nature et de la vie et des sciences de la terre",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Sciences agronomiques",
+            "postes": 1,
+            "departement": "Faculté des sciences de la nature et de la vie et des sciences de la terre",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Ecologie et environnement",
+            "postes": 1,
+            "departement": "Faculté des sciences de la nature et de la vie et des sciences de la terre",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Hydrobiologie marine et continentale",
+            "postes": 1,
+            "departement": "Faculté des sciences de la nature et de la vie et des sciences de la terre",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Langue française",
+            "postes": 2,
+            "departement": "Faculté des Langues étrangères",
+            "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de khemis miliana",
+            "specialite": "Traduction",
+            "postes": 1,
+            "departement": "Faculté des Langues étrangères",
+            "date_limite": "08/10/2026"
         },
         {
             "universite": "Université mouloud mammeri – tizi ouzou",
