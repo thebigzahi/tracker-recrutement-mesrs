@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "22/09/2026 à 14:55",
+    "mise_a_jour": "22/09/2026 à 15:55",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -343,6 +343,62 @@
             "postes": 1,
             "departement": "Faculté des sciences sociales et humaines",
             "date_limite": "11/10/2026"
+        },
+        {
+            "universite": "université de batna 1",
+            "specialite": "Informatique",
+            "postes": 2,
+            "departement": "RECTORAT",
+            "date_limite": "12/10/2026"
+        },
+        {
+            "universite": "université de batna 1",
+            "specialite": "Langue anglaise",
+            "postes": 2,
+            "departement": "RECTORAT",
+            "date_limite": "12/10/2026"
+        },
+        {
+            "universite": "université de batna 1",
+            "specialite": "Droit",
+            "postes": 2,
+            "departement": "Faculté de droit et sciences politiques",
+            "date_limite": "12/10/2026"
+        },
+        {
+            "universite": "université de batna 1",
+            "specialite": "Sciences humaines - sciences de l’information et de la communication",
+            "postes": 2,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "12/10/2026"
+        },
+        {
+            "universite": "université de batna 1",
+            "specialite": "Sciences de gestion",
+            "postes": 6,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "12/10/2026"
+        },
+        {
+            "universite": "université de batna 1",
+            "specialite": "Sciences biologiques",
+            "postes": 1,
+            "departement": "Institut des sciences vétérinaires et des sciences agronomiques",
+            "date_limite": "12/10/2026"
+        },
+        {
+            "universite": "université de batna 1",
+            "specialite": "Sciences vétérinaires",
+            "postes": 1,
+            "departement": "Institut des sciences vétérinaires et des sciences agronomiques",
+            "date_limite": "12/10/2026"
+        },
+        {
+            "universite": "université de batna 1",
+            "specialite": "Langue et civilisation",
+            "postes": 1,
+            "departement": "Faculté de langue et littérature arabes et des arts",
+            "date_limite": "12/10/2026"
         },
         {
             "universite": "école supérieure en sciences et technologies de l'informatique et du numérique de bejaia",
