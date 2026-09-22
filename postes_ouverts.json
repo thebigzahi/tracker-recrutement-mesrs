@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "21/09/2026 à 21:58",
+    "mise_a_jour": "22/09/2026 à 14:55",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -324,6 +324,27 @@
             "date_limite": "08/10/2026"
         },
         {
+            "universite": "université de ghardaia",
+            "specialite": "Sciences économiques",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "11/10/2026"
+        },
+        {
+            "universite": "université de ghardaia",
+            "specialite": "Sciences politiques",
+            "postes": 1,
+            "departement": "Faculté de droit et des sciences politiques",
+            "date_limite": "11/10/2026"
+        },
+        {
+            "universite": "université de ghardaia",
+            "specialite": "Sciences humaines - histoire",
+            "postes": 1,
+            "departement": "Faculté des sciences sociales et humaines",
+            "date_limite": "11/10/2026"
+        },
+        {
             "universite": "école supérieure en sciences et technologies de l'informatique et du numérique de bejaia",
             "specialite": "Informatique",
             "postes": 8,
@@ -336,20 +357,6 @@
             "postes": 1,
             "departement": "Ecole supérieure en Sciences et Technologies de l’Informatique et du Numérique",
             "date_limite": "28/09/2026"
-        },
-        {
-            "universite": "ecole normale supérieure de saida",
-            "specialite": "Langue anglaise",
-            "postes": 1,
-            "departement": "ecole normale supérieure de saida",
-            "date_limite": "13/09/2026"
-        },
-        {
-            "universite": "ecole normale supérieure de saida",
-            "specialite": "Langue française",
-            "postes": 1,
-            "departement": "ecole normale supérieure de saida",
-            "date_limite": "13/09/2026"
         },
         {
             "universite": "ecole nationale supérieure agronomique",
