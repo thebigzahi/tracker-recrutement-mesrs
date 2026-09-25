@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "24/09/2026 à 21:25",
+    "mise_a_jour": "25/09/2026 à 11:11",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -518,20 +518,6 @@
             "postes": 1,
             "departement": "Ecole supérieure en Sciences et Technologies de l’Informatique et du Numérique",
             "date_limite": "28/09/2026"
-        },
-        {
-            "universite": "ecole nationale supérieure agronomique",
-            "specialite": "Sciences agronomiques",
-            "postes": 1,
-            "departement": "GR-Hydraulique",
-            "date_limite": "24/09/2026"
-        },
-        {
-            "universite": "ecole nationale supérieure agronomique",
-            "specialite": "Chimie",
-            "postes": 1,
-            "departement": "Technologie alimentaire",
-            "date_limite": "24/09/2026"
         },
         {
             "universite": "centre universitaire de barika",
