@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "28/09/2026 à 13:41",
+    "mise_a_jour": "28/09/2026 à 14:41",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -336,6 +336,13 @@
             "postes": 1,
             "departement": "Faculté des Langues étrangères",
             "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de guelma",
+            "specialite": "Études linguistiques",
+            "postes": 1,
+            "departement": "Département de Langue et littérature arabe",
+            "date_limite": "17/10/2026"
         },
         {
             "universite": "université de ghardaia",
