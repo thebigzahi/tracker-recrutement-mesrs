@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "27/09/2026 à 23:11",
+    "mise_a_jour": "28/09/2026 à 11:42",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -84,97 +84,6 @@
             "postes": 1,
             "departement": "Faculté des sciences humaines et sociales",
             "date_limite": "01/10/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Informatique",
-            "postes": 2,
-            "departement": "Faculté des sciences",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Informatique",
-            "postes": 1,
-            "departement": "Annexe médéa - Ecole Normale Supérieure - Kouba",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Sciences biologiques",
-            "postes": 1,
-            "departement": "Faculté des sciences",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Sciences biologiques",
-            "postes": 1,
-            "departement": "Faculté de médecine",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Langue anglaise",
-            "postes": 1,
-            "departement": "Annexe médéa - Ecole Normale Supérieure - Kouba",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Traduction",
-            "postes": 1,
-            "departement": "Faculté de médecine",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Physique",
-            "postes": 1,
-            "departement": "Annexe médéa - Ecole Normale Supérieure - Kouba",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Physique",
-            "postes": 1,
-            "departement": "Faculté de médecine",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Chimie",
-            "postes": 1,
-            "departement": "Faculté de médecine",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Chimie",
-            "postes": 2,
-            "departement": "Annexe médéa - Ecole Normale Supérieure - Kouba",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Génie des procédés",
-            "postes": 1,
-            "departement": "Faculté de médecine",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Electronique",
-            "postes": 1,
-            "departement": "Annexe médéa - Ecole Normale Supérieure - Kouba",
-            "date_limite": "27/09/2026"
-        },
-        {
-            "universite": "université de médéa",
-            "specialite": "Droit",
-            "postes": 1,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "27/09/2026"
         },
         {
             "universite": "université de khenchela",
@@ -448,6 +357,83 @@
             "postes": 1,
             "departement": "Faculté des sciences sociales et humaines",
             "date_limite": "11/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 1,
+            "departement": "faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Droit",
+            "postes": 1,
+            "departement": "Faculté de droit et des sciences politiques",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Electromécanique",
+            "postes": 1,
+            "departement": "institut de technologie",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Administration et gestion du sport",
+            "postes": 1,
+            "departement": "Institut  des sciences et techniques des activités physiques et sportives.",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Sciences islamiques – charia",
+            "postes": 1,
+            "departement": "Faculté des sciences sociales et humaines",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Langue française",
+            "postes": 1,
+            "departement": "Faculté des lettres et des langues",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Linguistique et didactique",
+            "postes": 1,
+            "departement": "Faculté des lettres et des langues",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Informatique",
+            "postes": 1,
+            "departement": "Faculté des sciences exactes",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Physique",
+            "postes": 2,
+            "departement": "Faculté des sciences exactes",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Chimie",
+            "postes": 3,
+            "departement": "Faculté des sciences exactes",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de bouira",
+            "specialite": "Mathématiques",
+            "postes": 4,
+            "departement": "Faculté des sciences exactes",
+            "date_limite": "15/10/2026"
         },
         {
             "universite": "université de batna 1",
