@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "28/09/2026 à 14:41",
+    "mise_a_jour": "28/09/2026 à 15:41",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -84,6 +84,125 @@
             "postes": 1,
             "departement": "Faculté des sciences humaines et sociales",
             "date_limite": "01/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Mathématiques",
+            "postes": 1,
+            "departement": "Faculté de Technologie",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Electronique",
+            "postes": 1,
+            "departement": "Faculté de Technologie",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Electromécanique",
+            "postes": 1,
+            "departement": "Faculté de Technologie",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Sciences commerciales",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Sciences de gestion",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Sciences sociales - sociologie",
+            "postes": 1,
+            "departement": "Faculté des sciences sociales et des sciences humaines",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Sciences sociales - psychologie",
+            "postes": 1,
+            "departement": "Faculté des sciences sociales et des sciences humaines",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Sciences humaines - sciences de l’information et de la communication (en langue amazigh)",
+            "postes": 1,
+            "departement": "Faculté des sciences sociales et des sciences humaines",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Hygiène et sécurité industrielle",
+            "postes": 1,
+            "departement": "Institut des sciences et techniques appliquées",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Informatique",
+            "postes": 2,
+            "departement": "Faculté des sciences",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Génie des procédés",
+            "postes": 1,
+            "departement": "Faculté de Technologie",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Ecologie et environnement",
+            "postes": 1,
+            "departement": "Faculté des sciences",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Sciences alimentaires",
+            "postes": 1,
+            "departement": "Faculté des sciences",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Droit",
+            "postes": 3,
+            "departement": "Faculté de droit et sciences politiques",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Langue anglaise",
+            "postes": 1,
+            "departement": "Faculté des lettres et des langues",
+            "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de skikda",
+            "specialite": "Automatique",
+            "postes": 1,
+            "departement": "Faculté de Technologie",
+            "date_limite": "15/10/2026"
         },
         {
             "universite": "université de khenchela",
