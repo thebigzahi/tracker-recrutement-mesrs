@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "28/09/2026 à 23:41",
+    "mise_a_jour": "29/09/2026 à 11:20",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -616,20 +616,6 @@
             "postes": 1,
             "departement": "Faculté de langue et littérature arabes et des arts",
             "date_limite": "12/10/2026"
-        },
-        {
-            "universite": "école supérieure en sciences et technologies de l'informatique et du numérique de bejaia",
-            "specialite": "Informatique",
-            "postes": 8,
-            "departement": "Ecole supérieure en Sciences et Technologies de l’Informatique et du Numérique",
-            "date_limite": "28/09/2026"
-        },
-        {
-            "universite": "école supérieure en sciences et technologies de l'informatique et du numérique de bejaia",
-            "specialite": "Langue anglaise",
-            "postes": 1,
-            "departement": "Ecole supérieure en Sciences et Technologies de l’Informatique et du Numérique",
-            "date_limite": "28/09/2026"
         },
         {
             "universite": "centre universitaire de barika",
