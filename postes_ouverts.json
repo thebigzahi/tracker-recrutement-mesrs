@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "30/09/2026 à 13:49",
+    "mise_a_jour": "30/09/2026 à 14:49",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -560,6 +560,174 @@
             "postes": 4,
             "departement": "Faculté des sciences exactes",
             "date_limite": "15/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Mathématiques",
+            "postes": 6,
+            "departement": "Faculté des Sciences Exactes",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Sciences sociales - psychologie",
+            "postes": 3,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Génie civil",
+            "postes": 1,
+            "departement": "Faculté de Technologie",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Sciences sociales - orthophonie",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Sciences biologiques",
+            "postes": 3,
+            "departement": "Faculté des Sciences de la Nature et de la Vie",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Génie mécanique",
+            "postes": 1,
+            "departement": "Faculté de Technologie",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Linguistique et didactique",
+            "postes": 1,
+            "departement": "Faculté des lettres et des langues",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Electrotechnique",
+            "postes": 1,
+            "departement": "Faculté de Technologie",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Sciences sociales - sociologie",
+            "postes": 2,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Activité physique et sportive éducative",
+            "postes": 2,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Hydraulique",
+            "postes": 1,
+            "departement": "Faculté de Technologie",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Sciences humaines - histoire",
+            "postes": 2,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Traduction",
+            "postes": 2,
+            "departement": "Faculté des lettres et des langues",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Télécommunications",
+            "postes": 2,
+            "departement": "Faculté de Technologie",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Mathématiques appliquées",
+            "postes": 3,
+            "departement": "Faculté des Sciences Exactes",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Droit",
+            "postes": 3,
+            "departement": "Faculté de droit et des sciences politiques",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "BIOTECHNOLOGIE",
+            "postes": 2,
+            "departement": "Faculté des Sciences de la Nature et de la Vie",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Sciences économiques",
+            "postes": 2,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Sciences alimentaires",
+            "postes": 1,
+            "departement": "Faculté des Sciences de la Nature et de la Vie",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Langue anglaise",
+            "postes": 1,
+            "departement": "Faculté des lettres et des langues",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 2,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Langue française",
+            "postes": 1,
+            "departement": "Faculté des lettres et des langues",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Informatique",
+            "postes": 5,
+            "departement": "Faculté des Sciences Exactes",
+            "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béjaia",
+            "specialite": "Physique",
+            "postes": 1,
+            "departement": "Faculté des Sciences Exactes",
+            "date_limite": "19/10/2026"
         },
         {
             "universite": "université de batna 1",
