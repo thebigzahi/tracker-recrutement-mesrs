@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "30/09/2026 à 15:49",
+    "mise_a_jour": "30/09/2026 à 16:49",
     "postes": [
         {
             "universite": "université ibn khaldoun - tiaret",
@@ -455,6 +455,104 @@
             "postes": 1,
             "departement": "Faculté des Langues étrangères",
             "date_limite": "08/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Sciences de gestion",
+            "postes": 2,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 1,
+            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Sciences biologiques",
+            "postes": 3,
+            "departement": "Faculté des sciences de la nature et de la vie",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Langue française",
+            "postes": 1,
+            "departement": "Faculté des lettres et langues",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Langue anglaise",
+            "postes": 2,
+            "departement": "Faculté des lettres et langues",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Automatique",
+            "postes": 1,
+            "departement": "Faculté des sciences et de la technologie",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Gestion des techniques urbaines",
+            "postes": 1,
+            "departement": "Faculté des sciences et de la technologie",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Génie des procédés",
+            "postes": 1,
+            "departement": "Faculté des sciences et de la technologie",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Informatique",
+            "postes": 3,
+            "departement": "Faculté des sciences exactes et informatique",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Sciences humaines - histoire",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Droit",
+            "postes": 1,
+            "departement": "Faculté de droit et des sciences politiques",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Sciences sociales - sociologie",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Sciences politiques",
+            "postes": 1,
+            "departement": "Faculté de droit et des sciences politiques",
+            "date_limite": "18/10/2026"
+        },
+        {
+            "universite": "université de jijel",
+            "specialite": "Sciences humaines - sciences de l’information et de la communication",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "18/10/2026"
         },
         {
             "universite": "université de guelma",
