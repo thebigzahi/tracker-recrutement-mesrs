@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "04/10/2026 à 21:46",
+    "mise_a_jour": "05/10/2026 à 12:08",
     "postes": [
         {
             "universite": "université de skikda",
@@ -840,48 +840,6 @@
             "postes": 1,
             "departement": "Département de l'Informatique et  des Mathématiques",
             "date_limite": "22/10/2026"
-        },
-        {
-            "universite": "centre universitaire de barika",
-            "specialite": "Sciences de gestion",
-            "postes": 1,
-            "departement": "institut des sciences économique, commerciales et des sciences de gestion",
-            "date_limite": "04/10/2026"
-        },
-        {
-            "universite": "centre universitaire de barika",
-            "specialite": "Langue anglaise",
-            "postes": 1,
-            "departement": "Institut des lettres et des langues",
-            "date_limite": "04/10/2026"
-        },
-        {
-            "universite": "centre universitaire de barika",
-            "specialite": "Études littéraires",
-            "postes": 1,
-            "departement": "Institut des lettres et des langues",
-            "date_limite": "04/10/2026"
-        },
-        {
-            "universite": "centre universitaire de barika",
-            "specialite": "Études critiques",
-            "postes": 1,
-            "departement": "Institut des lettres et des langues",
-            "date_limite": "04/10/2026"
-        },
-        {
-            "universite": "centre universitaire de barika",
-            "specialite": "Electrotechnique",
-            "postes": 1,
-            "departement": "institut des sciences",
-            "date_limite": "04/10/2026"
-        },
-        {
-            "universite": "centre universitaire de barika",
-            "specialite": "Génie des procédés",
-            "postes": 1,
-            "departement": "institut des sciences",
-            "date_limite": "04/10/2026"
         }
     ]
 }
