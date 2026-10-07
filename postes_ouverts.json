@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "06/10/2026 à 21:32",
+    "mise_a_jour": "07/10/2026 à 10:52",
     "postes": [
         {
             "universite": "université de skikda",
@@ -196,111 +196,6 @@
             "postes": 2,
             "departement": "Faculté des lettres et des langues",
             "date_limite": "22/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Droit",
-            "postes": 1,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Sciences de gestion",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Droit",
-            "postes": 1,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Sciences économiques",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Langue anglaise",
-            "postes": 4,
-            "departement": "Faculté des lettres et des langues",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Études linguistiques",
-            "postes": 1,
-            "departement": "Faculté des lettres et des langues",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Mathématiques",
-            "postes": 2,
-            "departement": "Faculté des sciences et de la technologie",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Informatique",
-            "postes": 2,
-            "departement": "Faculté des sciences et de la technologie",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Informatique",
-            "postes": 2,
-            "departement": "Faculté des sciences et de la technologie",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Sciences alimentaires",
-            "postes": 1,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Sciences biologiques",
-            "postes": 1,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Sciences sociales - psychologie",
-            "postes": 1,
-            "departement": "Faculté des sciences sociales et humaines",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Sciences humaines - sciences de l’information et de la communication",
-            "postes": 1,
-            "departement": "Faculté des sciences sociales et humaines",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Sciences humaines - histoire",
-            "postes": 1,
-            "departement": "Faculté des sciences sociales et humaines",
-            "date_limite": "06/10/2026"
-        },
-        {
-            "universite": "université de khenchela",
-            "specialite": "Droit",
-            "postes": 1,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "06/10/2026"
         },
         {
             "universite": "université de khemis miliana",
