@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "07/10/2026 à 12:51",
+    "mise_a_jour": "07/10/2026 à 13:51",
     "postes": [
         {
             "universite": "université de skikda",
@@ -770,6 +770,13 @@
             "postes": 1,
             "departement": "Faculté de langue et littérature arabes et des arts",
             "date_limite": "12/10/2026"
+        },
+        {
+            "universite": "ecole supérieure des sciences de l’aliment et des industries agroalimentaires d’alger",
+            "specialite": "Sciences agronomiques",
+            "postes": 4,
+            "departement": "Direction Générale",
+            "date_limite": "19/10/2026"
         },
         {
             "universite": "ecole normale supérieure assia djebar constantine",
