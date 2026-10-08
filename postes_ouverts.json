@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "08/10/2026 à 14:05",
+    "mise_a_jour": "08/10/2026 à 15:05",
     "postes": [
         {
             "universite": "université de skikda",
@@ -774,13 +774,6 @@
         {
             "universite": "université d’alger 1",
             "specialite": "Droit",
-            "postes": 2,
-            "departement": "Faculté de droit",
-            "date_limite": "21/09/2026"
-        },
-        {
-            "universite": "université d’alger 1",
-            "specialite": "Droit",
             "postes": 1,
             "departement": "Faculté de droit",
             "date_limite": "21/09/2026"
@@ -819,6 +812,41 @@
             "postes": 4,
             "departement": "Direction Générale",
             "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de sétif",
+            "specialite": "Sciences sociales - sciences des populations",
+            "postes": 1,
+            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
+            "date_limite": "27/10/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de sétif",
+            "specialite": "Géologie",
+            "postes": 1,
+            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
+            "date_limite": "27/10/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de sétif",
+            "specialite": "Langue anglaise",
+            "postes": 3,
+            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
+            "date_limite": "27/10/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de sétif",
+            "specialite": "Langue française",
+            "postes": 1,
+            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
+            "date_limite": "27/10/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de sétif",
+            "specialite": "Sciences biologiques",
+            "postes": 1,
+            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
+            "date_limite": "27/10/2026"
         },
         {
             "universite": "ecole normale supérieure assia djebar constantine",
