@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "07/10/2026 à 19:51",
+    "mise_a_jour": "08/10/2026 à 14:05",
     "postes": [
         {
             "universite": "université de skikda",
@@ -423,7 +423,7 @@
         },
         {
             "universite": "université de jijel",
-            "specialite": "Sciences sociales - sociologie",
+            "specialite": "Sciences sociales - psychologie",
             "postes": 1,
             "departement": "Faculté des sciences humaines et sociales",
             "date_limite": "18/10/2026"
@@ -770,6 +770,48 @@
             "postes": 1,
             "departement": "Faculté de langue et littérature arabes et des arts",
             "date_limite": "12/10/2026"
+        },
+        {
+            "universite": "université d’alger 1",
+            "specialite": "Droit",
+            "postes": 2,
+            "departement": "Faculté de droit",
+            "date_limite": "21/09/2026"
+        },
+        {
+            "universite": "université d’alger 1",
+            "specialite": "Droit",
+            "postes": 1,
+            "departement": "Faculté de droit",
+            "date_limite": "21/09/2026"
+        },
+        {
+            "universite": "université d’alger 1",
+            "specialite": "Droit",
+            "postes": 1,
+            "departement": "Faculté de droit",
+            "date_limite": "21/09/2026"
+        },
+        {
+            "universite": "université d’alger 1",
+            "specialite": "Droit",
+            "postes": 1,
+            "departement": "Faculté de droit",
+            "date_limite": "21/09/2026"
+        },
+        {
+            "universite": "université d’alger 1",
+            "specialite": "Droit",
+            "postes": 3,
+            "departement": "Faculté de droit",
+            "date_limite": "21/09/2026"
+        },
+        {
+            "universite": "université d’alger 1",
+            "specialite": "Droit",
+            "postes": 2,
+            "departement": "Faculté de droit",
+            "date_limite": "21/09/2026"
         },
         {
             "universite": "ecole supérieure des sciences de l’aliment et des industries agroalimentaires d’alger",
