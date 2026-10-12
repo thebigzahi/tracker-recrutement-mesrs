@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "11/10/2026 à 21:36",
+    "mise_a_jour": "12/10/2026 à 14:20",
     "postes": [
         {
             "universite": "université de skikda",
@@ -301,27 +301,6 @@
             "postes": 1,
             "departement": "Département de Langue et littérature arabe",
             "date_limite": "17/10/2026"
-        },
-        {
-            "universite": "université de ghardaia",
-            "specialite": "Sciences économiques",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "11/10/2026"
-        },
-        {
-            "universite": "université de ghardaia",
-            "specialite": "Sciences politiques",
-            "postes": 1,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "11/10/2026"
-        },
-        {
-            "universite": "université de ghardaia",
-            "specialite": "Sciences humaines - histoire",
-            "postes": 1,
-            "departement": "Faculté des sciences sociales et humaines",
-            "date_limite": "11/10/2026"
         },
         {
             "universite": "université de bouira",
