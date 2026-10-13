@@ -1,6 +1,48 @@
 {
-    "mise_a_jour": "12/10/2026 à 20:19",
+    "mise_a_jour": "13/10/2026 à 14:35",
     "postes": [
+        {
+            "universite": "université larbi tébessi tébessa",
+            "specialite": "Sciences islamiques – charia",
+            "postes": 1,
+            "departement": "Département des sciences islamiques",
+            "date_limite": "28/10/2026"
+        },
+        {
+            "universite": "université larbi tébessi tébessa",
+            "specialite": "Sciences économiques",
+            "postes": 1,
+            "departement": "Département des Sciences économiques",
+            "date_limite": "28/10/2026"
+        },
+        {
+            "universite": "université larbi tébessi tébessa",
+            "specialite": "Langue française",
+            "postes": 4,
+            "departement": "Département des Lettres et langue française",
+            "date_limite": "28/10/2026"
+        },
+        {
+            "universite": "université larbi tébessi tébessa",
+            "specialite": "Langue anglaise",
+            "postes": 6,
+            "departement": "Département des Lettres et langue anglaise",
+            "date_limite": "28/10/2026"
+        },
+        {
+            "universite": "université larbi tébessi tébessa",
+            "specialite": "Entrainement sportif",
+            "postes": 2,
+            "departement": "Département d'entrainement sportif",
+            "date_limite": "28/10/2026"
+        },
+        {
+            "universite": "université larbi tébessi tébessa",
+            "specialite": "Activité physique et sportive éducative",
+            "postes": 2,
+            "departement": "Département d'activité physique et sportive éducative",
+            "date_limite": "28/10/2026"
+        },
         {
             "universite": "université de skikda",
             "specialite": "Mathématiques",
@@ -546,62 +588,6 @@
             "postes": 1,
             "departement": "Faculté des Sciences Exactes",
             "date_limite": "19/10/2026"
-        },
-        {
-            "universite": "université de batna 1",
-            "specialite": "Informatique",
-            "postes": 2,
-            "departement": "RECTORAT",
-            "date_limite": "12/10/2026"
-        },
-        {
-            "universite": "université de batna 1",
-            "specialite": "Langue anglaise",
-            "postes": 2,
-            "departement": "RECTORAT",
-            "date_limite": "12/10/2026"
-        },
-        {
-            "universite": "université de batna 1",
-            "specialite": "Droit",
-            "postes": 2,
-            "departement": "Faculté de droit et sciences politiques",
-            "date_limite": "12/10/2026"
-        },
-        {
-            "universite": "université de batna 1",
-            "specialite": "Sciences humaines - sciences de l’information et de la communication",
-            "postes": 2,
-            "departement": "Faculté des sciences humaines et sociales",
-            "date_limite": "12/10/2026"
-        },
-        {
-            "universite": "université de batna 1",
-            "specialite": "Sciences de gestion",
-            "postes": 6,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "12/10/2026"
-        },
-        {
-            "universite": "université de batna 1",
-            "specialite": "Sciences biologiques",
-            "postes": 1,
-            "departement": "Institut des sciences vétérinaires et des sciences agronomiques",
-            "date_limite": "12/10/2026"
-        },
-        {
-            "universite": "université de batna 1",
-            "specialite": "Sciences vétérinaires",
-            "postes": 1,
-            "departement": "Institut des sciences vétérinaires et des sciences agronomiques",
-            "date_limite": "12/10/2026"
-        },
-        {
-            "universite": "université de batna 1",
-            "specialite": "Langue et civilisation",
-            "postes": 1,
-            "departement": "Faculté de langue et littérature arabes et des arts",
-            "date_limite": "12/10/2026"
         },
         {
             "universite": "université d’alger 1",
