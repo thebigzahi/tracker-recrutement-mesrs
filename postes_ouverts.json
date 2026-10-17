@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "16/10/2026 à 16:55",
+    "mise_a_jour": "17/10/2026 à 20:12",
     "postes": [
         {
             "universite": "université larbi tébessi tébessa",
@@ -282,13 +282,6 @@
             "date_limite": "18/10/2026"
         },
         {
-            "universite": "université de guelma",
-            "specialite": "Études linguistiques",
-            "postes": 1,
-            "departement": "Département de Langue et littérature arabe",
-            "date_limite": "17/10/2026"
-        },
-        {
             "universite": "université de béjaia",
             "specialite": "Mathématiques",
             "postes": 6,
@@ -455,6 +448,76 @@
             "postes": 1,
             "departement": "Faculté des Sciences Exactes",
             "date_limite": "19/10/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Sciences agronomiques",
+            "postes": 1,
+            "departement": "Faculté des sciences de la nature et de la vie",
+            "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Sciences financières et comptabilité",
+            "postes": 2,
+            "departement": "Faculté des sciences économiques et des sciences commerciales et des sciences de gestion",
+            "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Droit",
+            "postes": 2,
+            "departement": "Faculté de droit et des sciences politiques",
+            "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Informatique",
+            "postes": 1,
+            "departement": "Faculté des sciences exactes",
+            "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Urbanisme",
+            "postes": 1,
+            "departement": "Faculté de technologie",
+            "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Sciences humaines - histoire",
+            "postes": 2,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Sciences sociales - orthophonie",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Sciences humaines - bibliothéconomie",
+            "postes": 1,
+            "departement": "Faculté des sciences humaines et sociales",
+            "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Études littéraires",
+            "postes": 1,
+            "departement": "Faculté des lettres et des langues",
+            "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "université de béchar",
+            "specialite": "Langue française",
+            "postes": 1,
+            "departement": "Faculté des lettres et des langues",
+            "date_limite": "04/11/2026"
         },
         {
             "universite": "université d’alger 1",
