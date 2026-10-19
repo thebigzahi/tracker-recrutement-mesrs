@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "18/10/2026 à 21:50",
+    "mise_a_jour": "19/10/2026 à 16:01",
     "postes": [
         {
             "universite": "université larbi tébessi tébessa",
@@ -182,104 +182,6 @@
             "postes": 2,
             "departement": "Faculté des lettres et  des langues",
             "date_limite": "03/11/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Sciences de gestion",
-            "postes": 2,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Sciences financières et comptabilité",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques, commerciales et des sciences de gestion",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Sciences biologiques",
-            "postes": 3,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Langue française",
-            "postes": 1,
-            "departement": "Faculté des lettres et langues",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Langue anglaise",
-            "postes": 2,
-            "departement": "Faculté des lettres et langues",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Automatique",
-            "postes": 1,
-            "departement": "Faculté des sciences et de la technologie",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Gestion des techniques urbaines",
-            "postes": 1,
-            "departement": "Faculté des sciences et de la technologie",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Génie des procédés",
-            "postes": 1,
-            "departement": "Faculté des sciences et de la technologie",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Informatique",
-            "postes": 3,
-            "departement": "Faculté des sciences exactes et informatique",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Sciences humaines - histoire",
-            "postes": 1,
-            "departement": "Faculté des sciences humaines et sociales",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Droit",
-            "postes": 1,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Sciences sociales - psychologie",
-            "postes": 1,
-            "departement": "Faculté des sciences humaines et sociales",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Sciences politiques",
-            "postes": 1,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "18/10/2026"
-        },
-        {
-            "universite": "université de jijel",
-            "specialite": "Sciences humaines - sciences de l’information et de la communication",
-            "postes": 1,
-            "departement": "Faculté des sciences humaines et sociales",
-            "date_limite": "18/10/2026"
         },
         {
             "universite": "université de béjaia",
@@ -518,6 +420,20 @@
             "postes": 1,
             "departement": "Faculté des lettres et des langues",
             "date_limite": "04/11/2026"
+        },
+        {
+            "universite": "Université d’alger 2",
+            "specialite": "Langue russe",
+            "postes": 2,
+            "departement": "Faculté de langue et littérature arabes et langues orientales",
+            "date_limite": "31/10/2026"
+        },
+        {
+            "universite": "Université d’alger 2",
+            "specialite": "Langue turque",
+            "postes": 2,
+            "departement": "Faculté de langue et littérature arabes et langues orientales",
+            "date_limite": "31/10/2026"
         },
         {
             "universite": "université d’alger 1",
