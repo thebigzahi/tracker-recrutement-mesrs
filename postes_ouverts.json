@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "21/10/2026 à 16:15",
+    "mise_a_jour": "21/10/2026 à 17:15",
     "postes": [
         {
             "universite": "université larbi tébessi tébessa",
@@ -420,6 +420,27 @@
             "postes": 1,
             "departement": "Département de l'Informatique et  des Mathématiques",
             "date_limite": "22/10/2026"
+        },
+        {
+            "universite": "ecole nationale supérieure vétérinaire",
+            "specialite": "Langue anglaise",
+            "postes": 1,
+            "departement": "département pré clinique",
+            "date_limite": "28/10/2026"
+        },
+        {
+            "universite": "ecole nationale supérieure vétérinaire",
+            "specialite": "Traduction",
+            "postes": 1,
+            "departement": "département pré clinique",
+            "date_limite": "28/10/2026"
+        },
+        {
+            "universite": "ecole nationale supérieure vétérinaire",
+            "specialite": "Sciences vétérinaires",
+            "postes": 1,
+            "departement": "département clinique",
+            "date_limite": "28/10/2026"
         }
     ]
 }
