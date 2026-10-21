@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "21/10/2026 à 12:15",
+    "mise_a_jour": "21/10/2026 à 13:15",
     "postes": [
         {
             "universite": "université larbi tébessi tébessa",
@@ -328,6 +328,27 @@
             "specialite": "Droit",
             "postes": 2,
             "departement": "Faculté de droit",
+            "date_limite": "21/09/2026"
+        },
+        {
+            "universite": "université d’alger 1",
+            "specialite": "Sciences islamiques - langue arabe et civilisation islamique",
+            "postes": 1,
+            "departement": "Faculté des sciences islamiques",
+            "date_limite": "21/09/2026"
+        },
+        {
+            "universite": "université d’alger 1",
+            "specialite": "Sciences islamiques - oussoul eddine",
+            "postes": 3,
+            "departement": "Faculté des sciences islamiques",
+            "date_limite": "21/09/2026"
+        },
+        {
+            "universite": "université d’alger 1",
+            "specialite": "Informatique",
+            "postes": 2,
+            "departement": "Faculté des sciences islamiques",
             "date_limite": "21/09/2026"
         },
         {
