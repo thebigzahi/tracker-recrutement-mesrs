@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "21/10/2026 à 17:15",
+    "mise_a_jour": "21/10/2026 à 18:15",
     "postes": [
         {
             "universite": "université larbi tébessi tébessa",
@@ -353,6 +353,13 @@
         },
         {
             "universite": "ecole normale supérieure de sétif",
+            "specialite": "Sciences sociales - sciences des populations",
+            "postes": 1,
+            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
+            "date_limite": "27/10/2026"
+        },
+        {
+            "universite": "ecole normale supérieure de sétif",
             "specialite": "Géologie",
             "postes": 1,
             "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
@@ -420,13 +427,6 @@
             "postes": 1,
             "departement": "Département de l'Informatique et  des Mathématiques",
             "date_limite": "22/10/2026"
-        },
-        {
-            "universite": "ecole nationale supérieure vétérinaire",
-            "specialite": "Langue anglaise",
-            "postes": 1,
-            "departement": "département pré clinique",
-            "date_limite": "28/10/2026"
         },
         {
             "universite": "ecole nationale supérieure vétérinaire",
