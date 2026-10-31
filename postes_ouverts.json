@@ -1,48 +1,6 @@
 {
-    "mise_a_jour": "28/10/2026 à 08:48",
+    "mise_a_jour": "31/10/2026 à 12:43",
     "postes": [
-        {
-            "universite": "université larbi tébessi tébessa",
-            "specialite": "Sciences islamiques – charia",
-            "postes": 1,
-            "departement": "Département des sciences islamiques",
-            "date_limite": "28/10/2026"
-        },
-        {
-            "universite": "université larbi tébessi tébessa",
-            "specialite": "Sciences économiques",
-            "postes": 1,
-            "departement": "Département des Sciences économiques",
-            "date_limite": "28/10/2026"
-        },
-        {
-            "universite": "université larbi tébessi tébessa",
-            "specialite": "Langue française",
-            "postes": 4,
-            "departement": "Département des Lettres et langue française",
-            "date_limite": "28/10/2026"
-        },
-        {
-            "universite": "université larbi tébessi tébessa",
-            "specialite": "Langue anglaise",
-            "postes": 6,
-            "departement": "Département des Lettres et langue anglaise",
-            "date_limite": "28/10/2026"
-        },
-        {
-            "universite": "université larbi tébessi tébessa",
-            "specialite": "Entrainement sportif",
-            "postes": 2,
-            "departement": "Département d'entrainement sportif",
-            "date_limite": "28/10/2026"
-        },
-        {
-            "universite": "université larbi tébessi tébessa",
-            "specialite": "Activité physique et sportive éducative",
-            "postes": 2,
-            "departement": "Département d'activité physique et sportive éducative",
-            "date_limite": "28/10/2026"
-        },
         {
             "universite": "université de mascara",
             "specialite": "Sciences biologiques",
@@ -185,6 +143,20 @@
         },
         {
             "universite": "Université d’alger 2",
+            "specialite": "Langue russe",
+            "postes": 2,
+            "departement": "Faculté de langue et littérature arabes et langues orientales",
+            "date_limite": "31/10/2026"
+        },
+        {
+            "universite": "Université d’alger 2",
+            "specialite": "Langue turque",
+            "postes": 2,
+            "departement": "Faculté de langue et littérature arabes et langues orientales",
+            "date_limite": "31/10/2026"
+        },
+        {
+            "universite": "Université d’alger 2",
             "specialite": "Langue turque",
             "postes": 2,
             "departement": "Faculté de langue et littérature arabes et langues orientales",
@@ -233,39 +205,25 @@
             "date_limite": "21/09/2026"
         },
         {
-            "universite": "ecole normale supérieure de sétif",
-            "specialite": "Sciences sociales - sciences des populations",
+            "universite": "ecole normale supérieure - laghouat",
+            "specialite": "Études littéraires",
             "postes": 1,
-            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
-            "date_limite": "27/10/2026"
+            "departement": "Département de langue et littérature Arabe",
+            "date_limite": "12/11/2026"
         },
         {
-            "universite": "ecole normale supérieure de sétif",
-            "specialite": "Géologie",
+            "universite": "ecole normale supérieure - laghouat",
+            "specialite": "Sciences sociales - philosophie",
             "postes": 1,
-            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
-            "date_limite": "27/10/2026"
+            "departement": "Département de langue et littérature Arabe",
+            "date_limite": "12/11/2026"
         },
         {
-            "universite": "ecole normale supérieure de sétif",
-            "specialite": "Langue anglaise",
-            "postes": 3,
-            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
-            "date_limite": "27/10/2026"
-        },
-        {
-            "universite": "ecole normale supérieure de sétif",
-            "specialite": "Langue française",
+            "universite": "ecole normale supérieure - laghouat",
+            "specialite": "Sciences de gestion",
             "postes": 1,
-            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
-            "date_limite": "27/10/2026"
-        },
-        {
-            "universite": "ecole normale supérieure de sétif",
-            "specialite": "Sciences biologiques",
-            "postes": 1,
-            "departement": "Ecole Normale Supérieure de Sétif - Messaoud Zeghar",
-            "date_limite": "27/10/2026"
+            "departement": "Département de l'histoire Geographie",
+            "date_limite": "12/11/2026"
         },
         {
             "universite": "ecole nationale supérieure vétérinaire",
@@ -280,6 +238,13 @@
             "postes": 1,
             "departement": "département clinique",
             "date_limite": "28/10/2026"
+        },
+        {
+            "universite": "Ecole des Hautes Etudes Commerciales",
+            "specialite": "Informatique",
+            "postes": 1,
+            "departement": "Direction des Enseignements, des Diplômes, et de la Formation Continue",
+            "date_limite": "18/11/2026"
         }
     ]
 }
