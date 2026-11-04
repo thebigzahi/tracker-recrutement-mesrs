@@ -1,69 +1,6 @@
 {
-    "mise_a_jour": "03/11/2026 à 21:21",
+    "mise_a_jour": "04/11/2026 à 17:23",
     "postes": [
-        {
-            "universite": "université de mascara",
-            "specialite": "Sciences biologiques",
-            "postes": 1,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "03/11/2026"
-        },
-        {
-            "universite": "université de mascara",
-            "specialite": "Sciences vétérinaires",
-            "postes": 1,
-            "departement": "Faculté des sciences de la nature et de la vie",
-            "date_limite": "03/11/2026"
-        },
-        {
-            "universite": "université de mascara",
-            "specialite": "Études linguistiques",
-            "postes": 2,
-            "departement": "Faculté des lettres et  des langues",
-            "date_limite": "03/11/2026"
-        },
-        {
-            "universite": "université de mascara",
-            "specialite": "Architecture",
-            "postes": 2,
-            "departement": "Faculté des sciences et de la technologie",
-            "date_limite": "03/11/2026"
-        },
-        {
-            "universite": "université de mascara",
-            "specialite": "Génie des procédés",
-            "postes": 1,
-            "departement": "Faculté des sciences et de la technologie",
-            "date_limite": "03/11/2026"
-        },
-        {
-            "universite": "université de mascara",
-            "specialite": "Droit",
-            "postes": 1,
-            "departement": "Faculté de droit et des sciences politiques",
-            "date_limite": "03/11/2026"
-        },
-        {
-            "universite": "université de mascara",
-            "specialite": "Sciences financières et comptabilité",
-            "postes": 1,
-            "departement": "Faculté des sciences économiques et des sciences commerciales et des sciences de gestion",
-            "date_limite": "03/11/2026"
-        },
-        {
-            "universite": "université de mascara",
-            "specialite": "Sciences sociales - psychologie",
-            "postes": 1,
-            "departement": "Faculté des sciences humaines et sociales",
-            "date_limite": "03/11/2026"
-        },
-        {
-            "universite": "université de mascara",
-            "specialite": "Études littéraires",
-            "postes": 2,
-            "departement": "Faculté des lettres et  des langues",
-            "date_limite": "03/11/2026"
-        },
         {
             "universite": "université de béchar",
             "specialite": "Sciences agronomiques",
@@ -175,6 +112,41 @@
             "postes": 2,
             "departement": "Faculté des sciences islamiques",
             "date_limite": "21/09/2026"
+        },
+        {
+            "universite": "école supérieure de gestion et de l’economie numérique –koléa",
+            "specialite": "Informatique",
+            "postes": 2,
+            "departement": "Département des Classes Préparatoires",
+            "date_limite": "23/11/2026"
+        },
+        {
+            "universite": "école supérieure de gestion et de l’economie numérique –koléa",
+            "specialite": "Langue anglaise",
+            "postes": 1,
+            "departement": "Département Deuxième cycle",
+            "date_limite": "23/11/2026"
+        },
+        {
+            "universite": "école supérieure de gestion et de l’economie numérique –koléa",
+            "specialite": "Mathématiques",
+            "postes": 2,
+            "departement": "Département des Classes Préparatoires",
+            "date_limite": "23/11/2026"
+        },
+        {
+            "universite": "école supérieure de gestion et de l’economie numérique –koléa",
+            "specialite": "Sciences de gestion",
+            "postes": 2,
+            "departement": "Département Deuxième cycle",
+            "date_limite": "23/11/2026"
+        },
+        {
+            "universite": "école supérieure de gestion et de l’economie numérique –koléa",
+            "specialite": "Droit",
+            "postes": 1,
+            "departement": "Département des Classes Préparatoires",
+            "date_limite": "23/11/2026"
         },
         {
             "universite": "ecole normale supérieure - laghouat",
