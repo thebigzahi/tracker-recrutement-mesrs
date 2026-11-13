@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "12/11/2026 à 21:25",
+    "mise_a_jour": "13/11/2026 à 11:13",
     "postes": [
         {
             "universite": "Université de tindouf",
@@ -98,27 +98,6 @@
             "postes": 1,
             "departement": "Département des Classes Préparatoires",
             "date_limite": "23/11/2026"
-        },
-        {
-            "universite": "ecole normale supérieure - laghouat",
-            "specialite": "Études littéraires",
-            "postes": 1,
-            "departement": "Département de langue et littérature Arabe",
-            "date_limite": "12/11/2026"
-        },
-        {
-            "universite": "ecole normale supérieure - laghouat",
-            "specialite": "Sciences sociales - philosophie",
-            "postes": 1,
-            "departement": "Département de langue et littérature Arabe",
-            "date_limite": "12/11/2026"
-        },
-        {
-            "universite": "ecole normale supérieure - laghouat",
-            "specialite": "Sciences de gestion",
-            "postes": 1,
-            "departement": "Département de l'histoire Geographie",
-            "date_limite": "12/11/2026"
         },
         {
             "universite": "Ecole des Hautes Etudes Commerciales",
