@@ -1,6 +1,55 @@
 {
-    "mise_a_jour": "17/11/2026 à 20:34",
+    "mise_a_jour": "18/11/2026 à 14:40",
     "postes": [
+        {
+            "universite": "Université de Tlemcen",
+            "specialite": "Langue anglaise",
+            "postes": 3,
+            "departement": "Département de langue anglaise",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "Université de Tlemcen",
+            "specialite": "Mathématiques",
+            "postes": 3,
+            "departement": "Département de Mathématiques",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "Université de Tlemcen",
+            "specialite": "Informatique",
+            "postes": 3,
+            "departement": "Département d'Informatique",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "Université de Tlemcen",
+            "specialite": "Sciences économiques",
+            "postes": 1,
+            "departement": "Département des sciences économiques",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "Université de Tlemcen",
+            "specialite": "Sciences alimentaires",
+            "postes": 1,
+            "departement": "Institut des Sciences et Techniques Appliquées",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "Université de Tlemcen",
+            "specialite": "Arts du Spectacle",
+            "postes": 2,
+            "departement": "Département Arts",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "Université de Tlemcen",
+            "specialite": "Mathématiques appliquées",
+            "postes": 3,
+            "departement": "Département de Mathématiques",
+            "date_limite": "08/12/2026"
+        },
         {
             "universite": "Université de tindouf",
             "specialite": "Langue anglaise",
