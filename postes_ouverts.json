@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "18/11/2026 à 21:40",
+    "mise_a_jour": "19/11/2026 à 11:30",
     "postes": [
         {
             "universite": "Université de Tlemcen",
@@ -196,13 +196,6 @@
             "postes": 1,
             "departement": "Département des Classes Préparatoires",
             "date_limite": "23/11/2026"
-        },
-        {
-            "universite": "Ecole des Hautes Etudes Commerciales",
-            "specialite": "Informatique",
-            "postes": 1,
-            "departement": "Direction des Enseignements, des Diplômes, et de la Formation Continue",
-            "date_limite": "18/11/2026"
         }
     ]
 }
