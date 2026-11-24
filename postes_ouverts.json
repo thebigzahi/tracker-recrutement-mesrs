@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "24/11/2026 à 11:47",
+    "mise_a_jour": "24/11/2026 à 12:47",
     "postes": [
         {
             "universite": "Université de Tlemcen",
@@ -161,6 +161,13 @@
             "postes": 2,
             "departement": "Faculté de Médecine",
             "date_limite": "26/11/2026"
+        },
+        {
+            "universite": "ecole supérieure des sciences biologiques  d’ oran",
+            "specialite": "BIOTECHNOLOGIE",
+            "postes": 3,
+            "departement": "Département de la formation préparatoire",
+            "date_limite": "10/12/2026"
         },
         {
             "universite": "centre universitaire el chérif bouchoucha aflou",
