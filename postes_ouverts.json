@@ -1,5 +1,5 @@
 {
-    "mise_a_jour": "27/11/2026 à 21:30",
+    "mise_a_jour": "28/11/2026 à 13:59",
     "postes": [
         {
             "universite": "Université de Tlemcen",
@@ -119,6 +119,55 @@
             "postes": 3,
             "departement": "Département de la formation préparatoire",
             "date_limite": "10/12/2026"
+        },
+        {
+            "universite": "ecole nationale polytechnique",
+            "specialite": "Electrotechnique",
+            "postes": 1,
+            "departement": "Département d'Electrotechnique",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "ecole nationale polytechnique",
+            "specialite": "Génie des procédés",
+            "postes": 1,
+            "departement": "Département Génie de l'Environnement",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "ecole nationale polytechnique",
+            "specialite": "Génie civil",
+            "postes": 1,
+            "departement": "Département de Génie Civil",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "ecole nationale polytechnique",
+            "specialite": "Hydraulique",
+            "postes": 1,
+            "departement": "Département d'Hydraulique",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "ecole nationale polytechnique",
+            "specialite": "Génie industriel",
+            "postes": 1,
+            "departement": "Département de Génie Industriel",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "ecole nationale polytechnique",
+            "specialite": "Langue anglaise",
+            "postes": 1,
+            "departement": "Centre d'enseignement intensif des langues",
+            "date_limite": "08/12/2026"
+        },
+        {
+            "universite": "ecole nationale polytechnique",
+            "specialite": "Génie des matériaux",
+            "postes": 1,
+            "departement": "Département de Métallurgie",
+            "date_limite": "08/12/2026"
         },
         {
             "universite": "centre universitaire el chérif bouchoucha aflou",
